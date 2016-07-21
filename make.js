@@ -9,8 +9,9 @@ var buildpath = "./";
 
 var fs = require('fs');
 var path = require('path');
+var peg = require('pegjs');
 var markdown = require ("markdown").markdown;
-var marked = require("marked");
+marked = require("marked");
 marked.setOptions({
   renderer: new marked.Renderer(),
   gfm: true,
@@ -21,6 +22,22 @@ marked.setOptions({
   smartLists: true,
   smartypants: false
 });
+
+var markup = peg.buildParser(fs.readFileSync("markup.pegjs", "utf8"));
+
+var convert = function(input) {
+	var chunks = markup.parse(input);
+	for (i in chunks) {
+		var s = chunks[i];
+		if (s.charAt(0) != "<") {
+			chunks[i] = marked(chunks[i]);
+		} else {
+			console.log("skipping", s);
+		}
+		
+	}
+	return chunks.join("\n");
+}
 
 var Handlebars = require ("Handlebars");
 
@@ -47,7 +64,7 @@ function build() {
 				
 				var data = {
 					title: base,
-					content: marked(src), //markdown.toHTML(src),
+					content: convert(src), //markdown.toHTML(src),
 				};
 				
 				var html = template(data);
