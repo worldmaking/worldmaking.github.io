@@ -97,3 +97,6 @@ School of the Arts, Media, Performance, and Design, York University,
 - [The EVL Creative Coding Research Group at The University of Illinois Chicago](https://www.evl.uic.edu/creativecoding/)
 - [The Music and Audio Computing lab at KAIST](http://mac.kaist.ac.kr/index.html)
 
+-----
+
+Why Alice? Because of the wonderland of the child traversing the logic of sense of the mathematician. Because the last sentence of Sutherland's "Ultimate Display" (1965) spoke that "with appropriate programming such a display could literally be the Wonderland into which Alice walked." Because of [the Logic of Sense](https://en.wikipedia.org/wiki/The_Logic_of_Sense).  Though not an acronym, if it were, perhaps it could be artificial life & computational experience, or algorithmic immersive and creative enlivement, or augmented live coding embodiment, or aleatory involution center, or atelier-lab of interactive collaborative environments... And it sounds like the Greek *allos*, source of alias, else, alter, and alien.

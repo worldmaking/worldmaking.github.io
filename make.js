@@ -29,11 +29,10 @@ var convert = function(input) {
 	var chunks = markup.parse(input);
 	for (i in chunks) {
 		var s = chunks[i];
+		// ignore HTML chunks:
 		if (s.charAt(0) != "<") {
 			chunks[i] = marked(chunks[i]);
-		} else {
-			console.log("skipping", s);
-		}
+		} 
 		
 	}
 	return chunks.join("\n");
