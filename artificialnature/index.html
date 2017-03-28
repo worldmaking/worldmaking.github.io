@@ -1,0 +1,1062 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Artificial Nature</title>
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/favicon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/favicon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144.png">
+<link rel="icon" type="image/vnd.microsoft.icon" sizes="32x32 48x48" href="img/favicon/favicon-32.ico">
+<link rel="icon" sizes="128x128" href="img/favicon/favicon-128.icns">
+<link rel="icon" href="img/favicon/favicon-32.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css">
+
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<style>
+
+body {
+	font-family: 'Roboto', 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	
+	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+		*/
+	text-rendering: optimizeLegibility !important;
+	line-height: 1.4em;
+	font-weight: 300;
+	color: #ddd; 
+	background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 100; 
+}
+h1 { font-size: 3.0rem; line-height: 3rem; }
+h2 { font-size: 2.4rem; line-height: 3rem; }
+h3 { font-size: 2.0rem; line-height: 2rem; }
+h4 { font-size: 1.8rem; line-height: 2rem; }
+h5 { font-size: 1.7rem; line-height: 2rem; }
+h6 { font-size: 1.6rem; line-height: 2rem; }
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	z-index: 10;
+	
+	display: flex;
+	align-items: center;
+	
+	/*background-color: rgba(10,10,10,0.75);*/
+	background-color: #444;
+	color: #fff;
+	
+	font-size: 2em;
+}
+
+main {
+	margin: 5em auto 4em auto;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	font-size: 0.8em;
+	z-index: 10;
+	
+	display: flex;
+	align-items: center;
+	
+	/*background-color: rgba(10,10,10,0.75);*/
+	background-color: #444;
+	color: #bbb;
+	
+}
+
+footer a { 
+	color: inherit; 
+} 
+
+.container {
+	width:90%; max-width: 960px;	/* page width */
+	margin: 0 auto 0 auto;
+	
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { list-style: circle; }
+ol { list-style: decimal; }
+  
+ol, ul {
+	padding-left: 0;
+	margin-left: 1rem;
+}
+
+li { 
+	padding 0px; 
+	margin-top: -0.5em;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+a, a:visited, a:link, a:hover, a:active {
+	text-decoration: none;
+	background-color: transparent;
+	color: #33bbee;
+   	border-color: #33bbee;
+    border-style: dotted;
+	border-width: 0 0 0px 0;
+}
+
+a:hover {
+	border-width: 0 0 1px 0;	
+}
+
+a img, a:hover img {
+	border-width: 0px;
+	text-decoration: none;
+}
+
+/* nav */
+nav ul {
+    list-style: none;
+    /*border-bottom: 1px solid #bbb;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0.25em 0 0;
+}
+
+nav a, nav a:visited, nav a:link, nav a:visited {
+	color: #999;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: 400;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+nav a.active {
+	color: #fff;
+}
+
+/* tabs */
+.tab-view {
+	display: none;
+}
+
+.tab-view.active {
+	display: block;
+}
+
+/* panels */
+
+.side {
+	position: relative;
+	float: right;
+	width: 50%;
+	padding: 0;
+	margin-left: 5%;
+	background-color: #222;
+	clear: both;
+}
+
+/* responsive embed */
+
+.embed {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 4em;
+}
+
+/* thumbnails */
+.thumbnailgrid {
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	background-color: #222;
+}
+
+.width30 {
+	width:32%;
+}
+
+.width20 {
+	width:19%;
+}
+
+.thumbnail {
+    overflow: hidden;
+    position: relative;
+    /*display: inline-block;*/
+    float: left;
+    margin: 0.5%;
+    padding: 0px;
+}
+.thumbnail:hover {
+    border-style: none;
+}
+/* hack to force thumbnail to be square */
+.thumbnail:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-style: none;
+  border-width: 0px;
+  margin: 0%;
+  padding: 0;
+}
+
+.thumbnail:visited img {
+  border-style: none;
+}
+
+/* http://dimsemenov.com/plugins/magnific-popup */
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+</style>
+</head>
+<body>
+
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- First is all the markdown content -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+
+
+<div style="display: none" id="tab-works-markdown">
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="Endless Current (2014)">
+
+<div class="embed"><iframe src="https://player.vimeo.com/video/199496510?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<a class="thumbnail width30" href="img/ec/feature.png" data-title="for HTC Vive"><img src="img/ec/thumbs/feature.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978600.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978600.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978674.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978674.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978710.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978710.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978765.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978765.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978803.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978803.png"></a>
+<a class="thumbnail width30" href="img/ec/icon1.png" data-title="Hand controller detail"><img src="img/ec/thumbs/icon1.png"></a>
+
+<a class="thumbnail width30" href="img/ec/IMG_0661.jpg" data-title="Currents New Media Festival, 2016"><img src="img/ec/thumbs/IMG_0661.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/endlesscurrent06.jpg"><img src="img/ec/thumbs/endlesscurrent06.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0829.jpg" data-title="Digital Dome at the Institute of American Indian Arts"><img src="img/ec/thumbs/IMG_0829.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0899.jpg" data-title="Digital Dome at the Institute of American Indian Arts"><img src="img/ec/thumbs/IMG_0899.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/IMG_3129.jpg" data-title="Artience Project Open Labs"><img src="img/ec/thumbs/IMG_3129.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_3212.jpg" data-title="Artience Project Open Labs"><img src="img/ec/thumbs/IMG_3212.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/endlesscurrent_yeosu.jpg" data-title="Yeulmaru Exhibition Hall"><img src="img/ec/thumbs/endlesscurrent_yeosu.jpg"></a>
+<a class="thumbnail width30" href="img/ec/cover_spacek.jpg" data-title="Space-K Gallery, KAIST"><img src="img/ec/thumbs/cover_spacek.jpg"></a>
+<a class="thumbnail width30" href="img/ec/allosphere.jpg" data-title="Precursor Fluid Space, in the AlloSphere"><img src="img/ec/thumbs/allosphere.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0280.jpg" data-title="Precursor Fluid Space, in the AlloSphere"><img src="img/ec/thumbs/IMG_0280.jpg"></a>
+<a class="thumbnail width30" href="img/ec/spherical.jpg"><img src="img/ec/thumbs/spherical.jpg"></a>
+
+</div>
+
+
+## Artificial Nature: Endless Current, 2014
+
+*Virtual reality (head mounted display or surround projection and sound), artificial ecosystem.*
+
+Endless Current is a visualization of a complex biologically-inspired system. Through immersive display it presents an infinitely explorable world sustaining a virtual ecosystem of multiple species. These artificial life forms subsist within a simulated 3D fluid environment that is constrained by an amorphous landscape reminiscent of underwater or microscopic spaces. Immersed participants view virtual doubles of their hands and arms within this world, with which they can intuitively navigate the space and discover interactions with the simulated life.
+
+**Exhibits:**
+
+- [Kaledioscope Virtual Reality Showcase volume II](http://kaleidovr.com/updates/kaleidoscope-launches-showcase-vol-02) -- selected among 21 projects for this international showcase exploring the art & science of virtual reality.   
+London: 2017-03-29 / Seoul: 2017-03-30 / Leipzig: 2017-04-02 / Berlin: 2017-04-07 / Los Angeles: 2017-04-20 / Kyiv: 2017-04-22 / Sydney: 2017-04-27 / Paris: 2017-04-28, 2017-04-29 / New York: TBD / Hong Kong: TBD
+
+- [**HTC VivePort** virtual reality content distribution network.](https://www.viveport.com/apps/2905a17c-4835-409a-bfe5-f8d2a2f79f27)  2017-01-30 - present. **Top featured project March 4-6.**
+
+- SV+VS (Sonifying Visuals+Visualizing Sound). Gallery MUN, **Dongdaemun Design Plaza**, Seoul, Korea. 2016-08-20 - 2016-09-18 (Curated). 
+
+- [**Currents New Media Festival**.](https://currentsnewmedia.org/work/endless-current/) El Museo Cultural, and also the Digital Dome at the Institute of American Indian Arts, Santa Fe, USA. 2016-06-10 - 2016-06-26 (Juried).
+
+- [**IEEE VIS** Arts Program.](http://visap.uic.edu/2015/artshow.html) LeRoy Neiman Center, School of the Art Institute of Chicago, USA. 2015-10-16 - 2015-10-30 (Juried).
+
+- [Artience Project Daejeon.](https://www.facebook.com/ArtienceFestival) Korea Research Institute of Standards and Science, Daejeon, Korea. 2014-08-23 - 2014-09-02 (Curated).
+
+- Life is very Beautiful. Yeulmaru Exhibition Hall, Yeosu, Korea.  2014-02-18 - 2014-04-06 (Curated).
+
+- Life is very Beautiful. Space-K Gallery, KI Building, KAIST, Daejeon, Korea.  2013-10-10 - 2013-12-6 (Curated).  
+ 
+- Korea Electronics Show 2013. KINTEX Convention Center, Ilsan, Korea.    2013-10-07 - 2013-10-10 (Commissioned).
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="Archipelago (2013)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/120987833?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<a class="thumbnail width30" href="img/archi/paris0.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/paris0.jpg"></a>
+<a class="thumbnail width30" href="img/archi/paris1.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/paris1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/paris2.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/paris2.jpg"></a>
+
+<a class="thumbnail width30" href="img/archi/arch_3914.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/arch_3914.jpg"></a>
+<a class="thumbnail width30" href="img/archi/arch_3916.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/arch_3916.jpg"></a>
+<a class="thumbnail width30" href="img/archi/arch_4102.jpg"  data-title="Paris 2014"><img src="img/archi/thumbs/arch_4102.jpg"></a>
+
+<a class="thumbnail width30" href="img/archi/inter2.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/inter2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul1.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul2.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul3.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul3.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul4.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul4.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul5.jpg"  data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul5.jpg"></a>
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/89884440?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<a class="thumbnail width30" href="img/archi/archipelago_colorado_clean.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/archipelago_colorado_clean.jpg"></a>
+<a class="thumbnail width30" href="img/archi/archipelago_crop1_720.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/archipelago_crop1_720.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col1.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col2.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col3.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col3.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col4.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col4.jpg"></a>
+
+
+
+</div>
+
+## Artificial Nature: Archipelago, 2013
+
+
+*Sand, projection mapping, mixed reality, artificial ecosystem.*
+
+Archipelago was one of five works awarded Honourable Mention in the Finished Project category of the [**VIDA 16.0 Art & Artificial Life competition**.](http://vida.fundaciontelefonica.com/en/portfolio/2-special-mentions/)
+
+**Exhibits:**
+
+- Seoul Sangsangryok Baljeonso (Power Station of Creativity). City Hall, Seoul, Korea. 
+2015-02-16 - 2015-02-27 (Invited re-exhibit).
+
+- [Capitaine Futur.](https://gaite-lyrique.net/en/capitaine-futur-and-the-extraordinary-journey) **La Gaîté Lyrique, Paris**, France. 
+2014-10-08 - 2015-02-08 (Curated).
+
+- Seoul Sangsangryok Baljeonso (Power Station of Creativity). **City Hall, Seoul**, Korea. 
+2014-10-01 - 2014-10-21 (Juried competition **1st prize, CAD ~$32,000**).
+
+- Systems and Subversions. IDEA Space, Edith Kinney Gaylord Cornerstone Arts Center, Colorado Springs, USA. 
+2013-10-28 - 2013-11-5 (Curated).
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="Chronophotography / Chronosculpture (2013)">
+<a class="thumbnail width30" href="img/chrono/chrono_render.jpg"  data-title="Physically-Based Render"><img src="img/chrono/thumbs/chrono_render.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/huge1.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/huge1.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/huge2.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/huge2.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/chronosculpture.jpg" data-title="3D Print"><img src="img/chrono/thumbs/chronosculpture.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/lenticular2.gif" data-title="Lenticular image source"><img src="img/chrono/thumbs/lenticular2.gif"></a>
+<a class="thumbnail width30" href="img/chrono/chrono_render2.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/chrono_render2.jpg"></a>
+</div>
+
+## Chronophotography / Chronosculpture, 2013
+
+*Lenticular print, 3D print*
+
+Exhibited at: *Media + Life: Sensorial Collaboration.* College of Art, Tokyo Polytechnic University, Tokyo, Japan. 
+2013-02-04 - 2013-02-07 (Curated).
+
+This work reprises Étienne-Jules Marey's technique of chronophotography with its  original biological motivation, and yet is entirely artificial. The subject is an artificial life form composed of segmented sections comparable to the class Chilopoda (centipedes), but with trifold symmetric limbs that undulate to propel the organism through a fluid medium. The resulting forms are a product of the organism morphology, the propulsive patterns of its limbs, its predatory macro-behavior, and the viscosity and currents of the fluid it is immersed in.
+
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="Time of Doubles / Flux (2011)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/38609719?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<a class="thumbnail width30" href="img/tod/tod1.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/tod1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/tod2.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/tod2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma1.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma2.jpg"  data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma.jpg"  data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma.jpg"></a>
+<a class="thumbnail width30" href="img/tod/translab.jpg" data-title="in Stereoscopic 3D"><img src="img/tod/thumbs/translab.jpg"></a>
+<a class="thumbnail width30" href="img/tod/hk.jpg" data-title="Hong Kong (SIGGRAPH, 2012)"><img src="img/tod/thumbs/hk.jpg"></a>
+<a class="thumbnail width30" href="img/tod/GW_panorama.jpg"  data-title="AlloSphere"><img src="img/tod/thumbs/GW_panorama.jpg"></a>
+<a class="thumbnail width30" href="img/tod/panorama.jpg" data-title="AlloSphere"><img src="img/tod/thumbs/panorama.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere.jpg" data-title="AlloSphere"><img src="img/tod/thumbs/allosphere.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere1.jpg" ><img src="img/tod/thumbs/allosphere1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere2.jpg" ><img src="img/tod/thumbs/allosphere2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere3.jpg" ><img src="img/tod/thumbs/allosphere3.jpg"></a>
+<a class="thumbnail width30" href="img/tod/flux1.gif"><img src="img/tod/thumbs/flux1.gif"></a>
+<a class="thumbnail width30" href="img/tod/tod_taiwan.jpg"  data-title="7th Digital Art Festival Taipei (2012)"><img src="img/tod/thumbs/tod_taiwan.jpg"></a>
+</div>
+
+
+## Artificial Nature: Time of Doubles / Flux, 2011
+
+*Curved screen, mixed reality, artificial ecosystem.*
+
+Time of Doubles is an immersive interactive art installation. It invites visitors to experience mirror existences of themselves taking upon new roles as sources of energy and kinetic disturbance within a perpetually changing virtual ecosystem, a uniquely created computational world. Visitors encounter their doubles in an immersive world through 3D depth cameras, a surround array of active loudspeakers, and projected images. This world displays some characteristics familiar from our own, but is populated by unfamiliar life forms singing, swimming, and breeding through sensitive motions of dark fluids. The visitors’ doubles are energy fields, which emanate myriad bright fluid particles, food sources to be eaten by the virtual organisms. Visitors see, hear, and feel how they are fed to unknown species in this virtual ecosystem. Without visitors, the world-fluid is filled with life seeds that cannot grow, but with human presence the populations explode into alien orchestras of evolutionary growth. Larger organisms hunt smaller ones, leaving physical residues and films behind as they pass, which constrain the fluid flows, and which can be sculpted by visitors’ doubles as they approach them.
+
+**Exhibits:**
+
+- [GLOBALE: Exo-Evolution. **Center for Art and Media (ZKM) Mediamuseum**, Karlsruhe, Germany.](http://zkm.de/en/event/2015/10/globale-exo-evolution)  
+2015-10-30 - 2016-02-28 (Curated).
+
+- **SIGGRAPH ASIA Art Gallery**. Hong Kong Exhibition and Conference Centre, Hong Kong SAR. 
+2013-11-19 - 2013-11-22 (Juried).
+*Presented in stereoscopic 3D.*
+
+- **Microwave International New Media Festival**: Enigma. City Hall, Hong Kong. 
+2012-11-03 - 2012-11-25 (Curated).
+
+- **7th Digital Art Festival Taipei** 2012: Artificial Nature. Songshan Cultural and Creative Park, Digital Art Center, Taipei, Taiwan. 
+2012-11-06 - 2012-11-25 (Curated).
+
+- **Daejeon Biennale** 2012: Energy. Daejeon Museum of Art, Daejeon, Korea. 
+2012-09-19 - 2012-11-18 (Curated).
+
+- Bits & Pieces. AlloSphere, California NanoSystems Institute, UCSB, USA. 
+2012-05-29 (Curated).
+
+- Collider 04: Spectacle. Emily Davis Art Gallery, Myers School of Art, The University of Akron. 
+2012-03-19 - 2012-04-13 (Curated).
+
+- Questionable Utility. TransLAB, California NanoSystems Institute, Santa Barbara, USA. 
+2011-06-09 (Juried).
+*Presented in stereoscopic 3D.*
+
+- Type:wall. **Seoul Olympic Museum of Art** (SOMA), Korea. 
+2011-03-31 - 2011-05-29 (Curated).  
+*Invited installation as one of five artworks under the theme of the architectural wall, incorporating sound, ice, breathing, shadows, and interaction.*
+
+
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="City Life (2011)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/31218839?title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<a class="thumbnail width30" href="img/citylife/1.jpg"><img src="img/citylife/thumbs/1.jpg"></a>
+<a class="thumbnail width30" href="img/citylife/2.jpg"><img src="img/citylife/thumbs/2.jpg"></a>
+<a class="thumbnail width30" href="img/citylife/3.jpg"><img src="img/citylife/thumbs/3.jpg"></a>
+
+</div>
+
+## Artificial Nature: City Life, 2011
+
+*LED media facade 78 x 99 meters, animation.*
+
+- Urban Organism: Triangle Screenscape. Seoul Square media facade. Seoul, Korea. 
+2011-10-11 - 2011-10-30 (Juried).
+
+City Life (도시 생명) is a site-specific generative video for the Seoul Square venue - a media facade of 99x78m located in the heart of Seoul's cityscape. To express a 'world-as-it-could-be' in which city and artificial life coexist, it presents an biological analogue of a metropolis in which the subjects are not citizens, but the city buildings themselves.
+
+The significant challenges of this venue include the vast size of the display, the very low resolution of pixels, and the fact that the office windows are often lit. The animation thus includes a population of virtual buildings, allowing a trompe l’oeil effect whereby the actual windows appear to be part of these virtual buildings, emphasized by the high contrast. The buildings represent a human element at a vast scale, but also animate in the form of growing and undulating life forms. Other alien organisms invade the space and consume these buildings, somewhat akin to Kaiju. A toon-shading rendering style is used to minimize the challenges of working at a low pixel resolution.
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+<div class="side gallery" data-title="Genetic Morphologies (2010)">
+<a class="thumbnail width30" href="img/morpho/final.jpg"><img src="img/morpho/thumbs/final.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/final-detail.jpg"><img src="img/morpho/thumbs/final-detail.jpg"></a>
+<a class="thumbnail width30" href="img/evosystem/evosystem.jpg"><img src="img/evosystem/thumbs/evosystem.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal.jpg"><img src="img/morpho/thumbs/wirefinal.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal-detail.jpg"><img src="img/morpho/thumbs/wirefinal-detail.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal-detail2.jpg"><img src="img/morpho/thumbs/wirefinal-detail2.jpg"></a>
+</div>
+
+## Genetic Morphologies, 2010
+
+*Generative/evolutionary 3D animation, print*
+
+Exhibited at: *Cross-Reality: Traversed & Encompassed Vision.*
+Arts & Information Center, College of Art, Tokyo Polytechnic University, Japan. 
+Feb 20-22 2012.
+
+Genetic Morphology Study is an initial exploration into evolutionary algorithms; a guiding aesthetic prototype for evolving populations of organisms as visual and spatial expression. The intention is to create a biological boundary form between the mathematical and the organic: modular combinations of geometric primitives developed through genetic evolution within a sculptural animation of collective behaviors. Each organismʼs morphology consists of a number of helix and hypercube modules arranged with symmetries varying according to their individual genetic code. The collective behavior of the organism is influenced by its nearest neighbor and the attractions of two ʻstarsʼ. The simulation comprised five generations of fifty agents each, produced by modeling in Maya and programming in MEL (Maya Embedded Language).
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+
+</div>
+
+<div style="display: none" id="tab-publications-markdown">
+
+
+
+- <strong>In press:</strong> Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In <em>Worldmaking as Techn&eacute;: Exploring Worlds of Participatory Art, Architecture, and Music</em>, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2017. 
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Recent Realizations of Artificial Nature." In <em>Living Architecture Systems Group White Papers</em>. Riverside Architectural Press, 2016.
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. <a href="https:&#x2F;&#x2F;www.computer.org&#x2F;csdl&#x2F;mags&#x2F;cg&#x2F;2016&#x2F;01&#x2F;mcg2016010016-abs.html">"Endogenous Biologically Inspired Art of Complex Systems."</a> <em>Computer Graphics and Applications</em> 36, no. 1  (January, 2016): 16-21. IEEE Computer Society.  
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. <a href="http:&#x2F;&#x2F;visap.uic.edu&#x2F;2015&#x2F;VISAP15-Papers&#x2F;visap2015_Ji_BiologicallyInspired.pdf">"Endogenous Biologically-Inspired Visualization Immersed Within an Art of Complex Systems."</a> In <em>Proceedings of the IEEE VIS Arts Program</em> (Chicago, USA), 30-37. University of Illinois at Chicago, October, 2015.
+
+- Graham Wakefield, Tobias H&ouml;llerer, JoAnn Kuchera-Morin, Charles Roberts, Matthew Wright. <a href="http:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;xpl&#x2F;articleDetails.jsp?arnumber=6682950">"Spatial Interaction in a Multiuser Immersive Instrument."</a> <em>Computer Graphics and Applications</em> 33, no. 6  (November, 2013): 14-20. IEEE Computer Society. 
+
+- Graham Wakefield, Haru (Hyunkyung) Ji. <a href="http:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;xpl&#x2F;articleDetails.jsp?arnumber=6597723">"Becoming-There: Natural Presence in an Art of Artificial Ecologies."</a> In <em>International Symposium on Ubiquitous Virtual Reality</em> (Daejeon, Republic of Korea), 11-14. IEEE Computer Society, July, 2013. <strong>Keynote paper.</strong>
+
+- Graham Wakefield, Haru (Hyunkyung) Ji. <a href="http:&#x2F;&#x2F;www.science-ebook.fr&#x2F;bonus&#x2F;virtual_worlds_extrait.pdf">"Virtual World-Making in an Interactive Art Installation: Time of Doubles."</a> In <em>Virtual Worlds</em>, edited by Stephan Bornhofen, Jean-Claude Heudin, Alain Lioret, Jean-Claude Torrel. Science eBook, Paris, November, 2012. <strong>Representative chapter.</strong> 
+
+- Graham Wakefield. "Real-Time Meta-Programming for Interactive Computational Arts." PhD dissertation, University of California Santa Barbara, September, 2012.
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Time of Doubles." In <em>Proceedings of SIGGRAPH ASIA Art Gallery</em> (Hong Kong), 26-26. ACM, December, 2011. 
+
+- Lance Putnam, Graham Wakefield, Haru (Hyunkyung) Ji, Basak Alper, Dennis Adderton, JoAnn Kuchera-Morin. <a href="http:&#x2F;&#x2F;shop.oreilly.com&#x2F;product&#x2F;0636920000617.do">"Immersed in Unfolding Complex Systems."</a> In <em>Beautiful Visualization: Looking at Data through the Eyes of Experts</em>, edited by Julie Steele, Noah Iliinsky, 291-310. O&#39;Reilly Media, Inc., 2010.  
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature." In <em>Proceedings of the NSF Media Arts, Science and Technology Conference</em> (Santa Barbara, USA). National Science Foundation, 2009. 
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature: Fluid Space." In <em>Proceedings of SIGGRAPH ASIA Art Gallery &amp; Emerging Technologies: Adaptation</em> (Yokohama, Japan), 26-26. ACM, December, 2009.  
+
+- Graham Wakefield, Haru (Hyunkyung) Ji. <a href="http:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007%2F978-3-642-01129-0_68">"Artificial nature: Immersive world making."</a> In <em>Theoretical Computer Science and General Issues</em> 5484 <em>Applications of Evolutionary Computing</em> <em>(The Evolutionary Music and Art Workshop, T&uuml;bingen)</em>, edited by Mario Giacobini et al., 597-602. Springer-Verlag Berlin Heidelberg, 2009. 
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature: Research and Development." In <em>The 2nd International Conference on Media Art and Information Aesthetics</em> (Beijing, China). CAFA Art Museum, July, 2009. 
+
+- Wesley Smith, Graham Wakefield. <a href="http:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007&#x2F;978-3-540-79486-8_19">"Computational Audiovisual Composition using Lua."</a> In <em>Communications in Computer and Information Science</em> 7 <em>Transdisciplinary Digital Art. Sound, Vision and the New Screen</em>, edited by Randy Adams, Steve Gibson, Stefan M&uuml;ller Arisona, 213-228. Springer-Verlag Berlin Heidelberg, 2008.  
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature as an Infinite Game." In <em>Proceedings of the International Symposium of Electronic Arts</em> (Singapore), 256-258. The Inter-Society for the Electronic Arts, August, 2008.
+
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature as an Infinite Game." In <em>Proceedings of ASIAGRAPH</em> (Shanghai, China). ASIAGRAPH, July, 2008. 
+
+
+</div>
+
+
+<div style="display: none" id="tab-artists-markdown">
+
+## Haru Ji
+
+Haru Ji is a TransArtist and researcher exploring the subject of life in art through Artificial Life Worldmaking: a form of computational generative art creating and evolving virtual ecosystems as immersive environments. She holds a Ph.D. in [Media Arts and Technology](http://mat.ucsb.edu) at the University of California Santa Barbara and is an assistant professor of Art & Technology in the School of Consilience at Sogang University in Seoul, Korea. She attained a Master and a Bachelor of Fine Arts in Sculpture from Seoul National University, and studied image engineering, computer graphics and 3D animation at Chung-Ang University, both in Seoul, Korea. She has exhibited computational installations, digital sculptures, virtual architecture, video installations, sculptural objects and 3D animations at exhibitions and art festivals worldwide including ISEA, EvoWorkshops, and SIGGRAPH, with corresponding publications. She is a co-creator of the research project and immersive ecosystem "Artificial Nature", exploring the expansion of media art towards ‘art-as-it-could-be’. It is an amalgam of play, research, and art, which raises novel and significant questions regarding the trans-disciplinary interpretation of both subjective beauty and objective truth in art and biology. 
+
+## Graham Wakefield
+
+Graham Wakefield's research has evolved from computer music composition to the generation of open-ended environments for exploratory experience, emphasizing continuation over closure. This work is expressed through software design for creative coding, and immersive artworks of artificial ecosystems (both leveraging live system evolution through dynamic compilation). He is Assistant Professor in the [School of Arts, Media, Performance and Design](http://computationalarts.ampd.yorku.ca) at York University, Toronto, where he runs the [Alice Lab for Computational Worldmaking](https://worldmaking.github.io/). He holds a BA in Philosophy from the University of Warwick UK, a Master in Composition from Goldsmiths College University of London, UK and a Ph.D in Media Arts and Technology from the University of California Santa Barbara, USA. Graham played a central role in the development of software systems and authoring content for the [AlloSphere](http://www.allosphere.ucsb.edu): a three storey spherical multi-user immersive instrument in the California Nano-Systems Institute. Graham is also a software developer for Cycling '74, co-authoring the Gen extension for the widely-used media arts environment [Max/MSP/Jitter](https://cycling74.com/products/max). His works and publications have been performed, exhibited and presented at international events including SIGGRAPH, ICMC, NIME, EvoWorkshops and ISEA. 
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+
+</div>
+
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- Second is the actual HTML content -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------- -->
+
+<header>
+<div class="container">
+<nav>
+<ul>
+  <li>Artificial Nature</li>
+  <li><a href="#tab-works">Works</a></li>
+  <li><a href="#tab-publications">Publications</a></li>
+  <li><a href="#tab-artists">Artists</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<div class="container">
+
+<section class="tab-view active" id="tab-works">
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="Endless Current (2014)">
+
+<div class="embed"><iframe src="https://player.vimeo.com/video/199496510?title=0&amp;byline=0&amp;portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+
+<a class="thumbnail width30" href="img/ec/feature.png" data-title="for HTC Vive"><img src="img/ec/thumbs/feature.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978600.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978600.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978674.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978674.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978710.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978710.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978765.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978765.png"></a>
+<a class="thumbnail width30" href="img/ec/Screenshot_1483978803.png" data-title="for HTC Vive"><img src="img/ec/thumbs/Screenshot_1483978803.png"></a>
+<a class="thumbnail width30" href="img/ec/icon1.png" data-title="Hand controller detail"><img src="img/ec/thumbs/icon1.png"></a>
+
+<a class="thumbnail width30" href="img/ec/IMG_0661.jpg" data-title="Currents New Media Festival, 2016"><img src="img/ec/thumbs/IMG_0661.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/endlesscurrent06.jpg"><img src="img/ec/thumbs/endlesscurrent06.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0829.jpg" data-title="Digital Dome at the Institute of American Indian Arts"><img src="img/ec/thumbs/IMG_0829.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0899.jpg" data-title="Digital Dome at the Institute of American Indian Arts"><img src="img/ec/thumbs/IMG_0899.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/IMG_3129.jpg" data-title="Artience Project Open Labs"><img src="img/ec/thumbs/IMG_3129.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_3212.jpg" data-title="Artience Project Open Labs"><img src="img/ec/thumbs/IMG_3212.jpg"></a>
+
+<a class="thumbnail width30" href="img/ec/endlesscurrent_yeosu.jpg" data-title="Yeulmaru Exhibition Hall"><img src="img/ec/thumbs/endlesscurrent_yeosu.jpg"></a>
+<a class="thumbnail width30" href="img/ec/cover_spacek.jpg" data-title="Space-K Gallery, KAIST"><img src="img/ec/thumbs/cover_spacek.jpg"></a>
+<a class="thumbnail width30" href="img/ec/allosphere.jpg" data-title="Precursor Fluid Space, in the AlloSphere"><img src="img/ec/thumbs/allosphere.jpg"></a>
+<a class="thumbnail width30" href="img/ec/IMG_0280.jpg" data-title="Precursor Fluid Space, in the AlloSphere"><img src="img/ec/thumbs/IMG_0280.jpg"></a>
+<a class="thumbnail width30" href="img/ec/spherical.jpg"><img src="img/ec/thumbs/spherical.jpg"></a>
+
+</div>
+
+<h2 id="artificialnatureendlesscurrent2014">Artificial Nature: Endless Current, 2014</h2>
+
+<p><em>Virtual reality (head mounted display or surround projection and sound), artificial ecosystem.</em></p>
+
+<p>Endless Current is a visualization of a complex biologically-inspired system. Through immersive display it presents an infinitely explorable world sustaining a virtual ecosystem of multiple species. These artificial life forms subsist within a simulated 3D fluid environment that is constrained by an amorphous landscape reminiscent of underwater or microscopic spaces. Immersed participants view virtual doubles of their hands and arms within this world, with which they can intuitively navigate the space and discover interactions with the simulated life.</p>
+
+<p><strong>Exhibits:</strong></p>
+
+<ul>
+<li><p><a href="http://kaleidovr.com/updates/kaleidoscope-launches-showcase-vol-02">Kaledioscope Virtual Reality Showcase volume II</a> -- selected among 21 projects for this international showcase exploring the art &amp; science of virtual reality. <br />
+London: 2017-03-29 / Seoul: 2017-03-30 / Leipzig: 2017-04-02 / Berlin: 2017-04-07 / Los Angeles: 2017-04-20 / Kyiv: 2017-04-22 / Sydney: 2017-04-27 / Paris: 2017-04-28, 2017-04-29 / New York: TBD / Hong Kong: TBD</p></li>
+<li><p><a href="https://www.viveport.com/apps/2905a17c-4835-409a-bfe5-f8d2a2f79f27"><strong>HTC VivePort</strong> virtual reality content distribution network.</a>  2017-01-30 - present. <strong>Top featured project March 4-6.</strong></p></li>
+<li><p>SV+VS (Sonifying Visuals+Visualizing Sound). Gallery MUN, <strong>Dongdaemun Design Plaza</strong>, Seoul, Korea. 2016-08-20 - 2016-09-18 (Curated). </p></li>
+<li><p><a href="https://currentsnewmedia.org/work/endless-current/"><strong>Currents New Media Festival</strong>.</a> El Museo Cultural, and also the Digital Dome at the Institute of American Indian Arts, Santa Fe, USA. 2016-06-10 - 2016-06-26 (Juried).</p></li>
+<li><p><a href="http://visap.uic.edu/2015/artshow.html"><strong>IEEE VIS</strong> Arts Program.</a> LeRoy Neiman Center, School of the Art Institute of Chicago, USA. 2015-10-16 - 2015-10-30 (Juried).</p></li>
+<li><p><a href="https://www.facebook.com/ArtienceFestival">Artience Project Daejeon.</a> Korea Research Institute of Standards and Science, Daejeon, Korea. 2014-08-23 - 2014-09-02 (Curated).</p></li>
+<li><p>Life is very Beautiful. Yeulmaru Exhibition Hall, Yeosu, Korea.  2014-02-18 - 2014-04-06 (Curated).</p></li>
+<li><p>Life is very Beautiful. Space-K Gallery, KI Building, KAIST, Daejeon, Korea.  2013-10-10 - 2013-12-6 (Curated).  </p></li>
+<li><p>Korea Electronics Show 2013. KINTEX Convention Center, Ilsan, Korea.    2013-10-07 - 2013-10-10 (Commissioned).</p></li>
+</ul>
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="Archipelago (2013)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/120987833?title=0&amp;byline=0&amp;portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<p><a class="thumbnail width30" href="img/archi/paris0.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/paris0.jpg"></a>
+<a class="thumbnail width30" href="img/archi/paris1.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/paris1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/paris2.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/paris2.jpg"></a></p>
+
+<p><a class="thumbnail width30" href="img/archi/arch_3914.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/arch_3914.jpg"></a>
+<a class="thumbnail width30" href="img/archi/arch_3916.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/arch_3916.jpg"></a>
+<a class="thumbnail width30" href="img/archi/arch_4102.jpg" data-title="Paris 2014"><img src="img/archi/thumbs/arch_4102.jpg"></a></p>
+
+<p><a class="thumbnail width30" href="img/archi/inter2.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/inter2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul1.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul2.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul3.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul3.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul4.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul4.jpg"></a>
+<a class="thumbnail width30" href="img/archi/seoul5.jpg" data-title="Seoul 2014/2015"><img src="img/archi/thumbs/seoul5.jpg"></a></p>
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/89884440?title=0&amp;byline=0&amp;portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<p><a class="thumbnail width30" href="img/archi/archipelago_colorado_clean.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/archipelago_colorado_clean.jpg"></a>
+<a class="thumbnail width30" href="img/archi/archipelago_crop1_720.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/archipelago_crop1_720.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col1.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col1.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col2.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col2.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col3.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col3.jpg"></a>
+<a class="thumbnail width30" href="img/archi/col4.jpg" data-title="Colorado 2013"><img src="img/archi/thumbs/col4.jpg"></a></p>
+
+<p></div></p>
+
+<h2 id="artificialnaturearchipelago2013">Artificial Nature: Archipelago, 2013</h2>
+
+<p><em>Sand, projection mapping, mixed reality, artificial ecosystem.</em></p>
+
+<p>Archipelago was one of five works awarded Honourable Mention in the Finished Project category of the <a href="http://vida.fundaciontelefonica.com/en/portfolio/2-special-mentions/"><strong>VIDA 16.0 Art &amp; Artificial Life competition</strong>.</a></p>
+
+<p><strong>Exhibits:</strong></p>
+
+<ul>
+<li><p>Seoul Sangsangryok Baljeonso (Power Station of Creativity). City Hall, Seoul, Korea. 
+2015-02-16 - 2015-02-27 (Invited re-exhibit).</p></li>
+<li><p><a href="https://gaite-lyrique.net/en/capitaine-futur-and-the-extraordinary-journey">Capitaine Futur.</a> <strong>La Gaîté Lyrique, Paris</strong>, France. 
+2014-10-08 - 2015-02-08 (Curated).</p></li>
+<li><p>Seoul Sangsangryok Baljeonso (Power Station of Creativity). <strong>City Hall, Seoul</strong>, Korea. 
+2014-10-01 - 2014-10-21 (Juried competition <strong>1st prize, CAD ~$32,000</strong>).</p></li>
+<li><p>Systems and Subversions. IDEA Space, Edith Kinney Gaylord Cornerstone Arts Center, Colorado Springs, USA. 
+2013-10-28 - 2013-11-5 (Curated).</p></li>
+</ul>
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="Chronophotography / Chronosculpture (2013)">
+<a class="thumbnail width30" href="img/chrono/chrono_render.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/chrono_render.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/huge1.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/huge1.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/huge2.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/huge2.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/chronosculpture.jpg" data-title="3D Print"><img src="img/chrono/thumbs/chronosculpture.jpg"></a>
+<a class="thumbnail width30" href="img/chrono/lenticular2.gif" data-title="Lenticular image source"><img src="img/chrono/thumbs/lenticular2.gif"></a>
+<a class="thumbnail width30" href="img/chrono/chrono_render2.jpg" data-title="Physically-Based Render"><img src="img/chrono/thumbs/chrono_render2.jpg"></a>
+</div>
+
+<h2 id="chronophotographychronosculpture2013">Chronophotography / Chronosculpture, 2013</h2>
+
+<p><em>Lenticular print, 3D print</em></p>
+
+<p>Exhibited at: <em>Media + Life: Sensorial Collaboration.</em> College of Art, Tokyo Polytechnic University, Tokyo, Japan. 
+2013-02-04 - 2013-02-07 (Curated).</p>
+
+<p>This work reprises Étienne-Jules Marey's technique of chronophotography with its  original biological motivation, and yet is entirely artificial. The subject is an artificial life form composed of segmented sections comparable to the class Chilopoda (centipedes), but with trifold symmetric limbs that undulate to propel the organism through a fluid medium. The resulting forms are a product of the organism morphology, the propulsive patterns of its limbs, its predatory macro-behavior, and the viscosity and currents of the fluid it is immersed in.</p>
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="Time of Doubles / Flux (2011)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/38609719?title=0&amp;byline=0&amp;portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<p><a class="thumbnail width30" href="img/tod/tod1.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/tod1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/tod2.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/tod2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma1.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma2.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/soma.jpg" data-title="Seoul Olympic Museum of Art"><img src="img/tod/thumbs/soma.jpg"></a>
+<a class="thumbnail width30" href="img/tod/translab.jpg" data-title="in Stereoscopic 3D"><img src="img/tod/thumbs/translab.jpg"></a>
+<a class="thumbnail width30" href="img/tod/hk.jpg" data-title="Hong Kong (SIGGRAPH, 2012)"><img src="img/tod/thumbs/hk.jpg"></a>
+<a class="thumbnail width30" href="img/tod/GW_panorama.jpg" data-title="AlloSphere"><img src="img/tod/thumbs/GW_panorama.jpg"></a>
+<a class="thumbnail width30" href="img/tod/panorama.jpg" data-title="AlloSphere"><img src="img/tod/thumbs/panorama.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere.jpg" data-title="AlloSphere"><img src="img/tod/thumbs/allosphere.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere1.jpg"><img src="img/tod/thumbs/allosphere1.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere2.jpg"><img src="img/tod/thumbs/allosphere2.jpg"></a>
+<a class="thumbnail width30" href="img/tod/allosphere3.jpg"><img src="img/tod/thumbs/allosphere3.jpg"></a>
+<a class="thumbnail width30" href="img/tod/flux1.gif"><img src="img/tod/thumbs/flux1.gif"></a>
+<a class="thumbnail width30" href="img/tod/tod_taiwan.jpg" data-title="7th Digital Art Festival Taipei (2012)"><img src="img/tod/thumbs/tod_taiwan.jpg"></a>
+</div></p>
+
+<h2 id="artificialnaturetimeofdoublesflux2011">Artificial Nature: Time of Doubles / Flux, 2011</h2>
+
+<p><em>Curved screen, mixed reality, artificial ecosystem.</em></p>
+
+<p>Time of Doubles is an immersive interactive art installation. It invites visitors to experience mirror existences of themselves taking upon new roles as sources of energy and kinetic disturbance within a perpetually changing virtual ecosystem, a uniquely created computational world. Visitors encounter their doubles in an immersive world through 3D depth cameras, a surround array of active loudspeakers, and projected images. This world displays some characteristics familiar from our own, but is populated by unfamiliar life forms singing, swimming, and breeding through sensitive motions of dark fluids. The visitors’ doubles are energy fields, which emanate myriad bright fluid particles, food sources to be eaten by the virtual organisms. Visitors see, hear, and feel how they are fed to unknown species in this virtual ecosystem. Without visitors, the world-fluid is filled with life seeds that cannot grow, but with human presence the populations explode into alien orchestras of evolutionary growth. Larger organisms hunt smaller ones, leaving physical residues and films behind as they pass, which constrain the fluid flows, and which can be sculpted by visitors’ doubles as they approach them.</p>
+
+<p><strong>Exhibits:</strong></p>
+
+<ul>
+<li><p><a href="http://zkm.de/en/event/2015/10/globale-exo-evolution">GLOBALE: Exo-Evolution. <strong>Center for Art and Media (ZKM) Mediamuseum</strong>, Karlsruhe, Germany.</a> <br />
+2015-10-30 - 2016-02-28 (Curated).</p></li>
+<li><p><strong>SIGGRAPH ASIA Art Gallery</strong>. Hong Kong Exhibition and Conference Centre, Hong Kong SAR. 
+2013-11-19 - 2013-11-22 (Juried).
+<em>Presented in stereoscopic 3D.</em></p></li>
+<li><p><strong>Microwave International New Media Festival</strong>: Enigma. City Hall, Hong Kong. 
+2012-11-03 - 2012-11-25 (Curated).</p></li>
+<li><p><strong>7th Digital Art Festival Taipei</strong> 2012: Artificial Nature. Songshan Cultural and Creative Park, Digital Art Center, Taipei, Taiwan. 
+2012-11-06 - 2012-11-25 (Curated).</p></li>
+<li><p><strong>Daejeon Biennale</strong> 2012: Energy. Daejeon Museum of Art, Daejeon, Korea. 
+2012-09-19 - 2012-11-18 (Curated).</p></li>
+<li><p>Bits &amp; Pieces. AlloSphere, California NanoSystems Institute, UCSB, USA. 
+2012-05-29 (Curated).</p></li>
+<li><p>Collider 04: Spectacle. Emily Davis Art Gallery, Myers School of Art, The University of Akron. 
+2012-03-19 - 2012-04-13 (Curated).</p></li>
+<li><p>Questionable Utility. TransLAB, California NanoSystems Institute, Santa Barbara, USA. 
+2011-06-09 (Juried).
+<em>Presented in stereoscopic 3D.</em></p></li>
+<li><p>Type:wall. <strong>Seoul Olympic Museum of Art</strong> (SOMA), Korea. 
+2011-03-31 - 2011-05-29 (Curated). <br />
+<em>Invited installation as one of five artworks under the theme of the architectural wall, incorporating sound, ice, breathing, shadows, and interaction.</em></p></li>
+</ul>
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="City Life (2011)">
+
+<div class="embed">
+<iframe src="https://player.vimeo.com/video/31218839?title=0&amp;byline=0&amp;portrait=0" width="1920" height="1080" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+
+<p><a class="thumbnail width30" href="img/citylife/1.jpg"><img src="img/citylife/thumbs/1.jpg"></a>
+<a class="thumbnail width30" href="img/citylife/2.jpg"><img src="img/citylife/thumbs/2.jpg"></a>
+<a class="thumbnail width30" href="img/citylife/3.jpg"><img src="img/citylife/thumbs/3.jpg"></a></p>
+
+<p></div></p>
+
+<h2 id="artificialnaturecitylife2011">Artificial Nature: City Life, 2011</h2>
+
+<p><em>LED media facade 78 x 99 meters, animation.</em></p>
+
+<ul>
+<li>Urban Organism: Triangle Screenscape. Seoul Square media facade. Seoul, Korea. 
+2011-10-11 - 2011-10-30 (Juried).</li>
+</ul>
+
+<p>City Life (도시 생명) is a site-specific generative video for the Seoul Square venue - a media facade of 99x78m located in the heart of Seoul's cityscape. To express a 'world-as-it-could-be' in which city and artificial life coexist, it presents an biological analogue of a metropolis in which the subjects are not citizens, but the city buildings themselves.</p>
+
+<p>The significant challenges of this venue include the vast size of the display, the very low resolution of pixels, and the fact that the office windows are often lit. The animation thus includes a population of virtual buildings, allowing a trompe l’oeil effect whereby the actual windows appear to be part of these virtual buildings, emphasized by the high contrast. The buildings represent a human element at a vast scale, but also animate in the form of growing and undulating life forms. Other alien organisms invade the space and consume these buildings, somewhat akin to Kaiju. A toon-shading rendering style is used to minimize the challenges of working at a low pixel resolution.</p>
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+<div class="side gallery" data-title="Genetic Morphologies (2010)">
+<a class="thumbnail width30" href="img/morpho/final.jpg"><img src="img/morpho/thumbs/final.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/final-detail.jpg"><img src="img/morpho/thumbs/final-detail.jpg"></a>
+<a class="thumbnail width30" href="img/evosystem/evosystem.jpg"><img src="img/evosystem/thumbs/evosystem.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal.jpg"><img src="img/morpho/thumbs/wirefinal.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal-detail.jpg"><img src="img/morpho/thumbs/wirefinal-detail.jpg"></a>
+<a class="thumbnail width30" href="img/morpho/wirefinal-detail2.jpg"><img src="img/morpho/thumbs/wirefinal-detail2.jpg"></a>
+</div>
+
+<h2 id="geneticmorphologies2010">Genetic Morphologies, 2010</h2>
+
+<p><em>Generative/evolutionary 3D animation, print</em></p>
+
+<p>Exhibited at: <em>Cross-Reality: Traversed &amp; Encompassed Vision.</em>
+Arts &amp; Information Center, College of Art, Tokyo Polytechnic University, Japan. 
+Feb 20-22 2012.</p>
+
+<p>Genetic Morphology Study is an initial exploration into evolutionary algorithms; a guiding aesthetic prototype for evolving populations of organisms as visual and spatial expression. The intention is to create a biological boundary form between the mathematical and the organic: modular combinations of geometric primitives developed through genetic evolution within a sculptural animation of collective behaviors. Each organismʼs morphology consists of a number of helix and hypercube modules arranged with symmetries varying according to their individual genetic code. The collective behavior of the organism is influenced by its nearest neighbor and the attractions of two ʻstarsʼ. The simulation comprised five generations of fifty agents each, produced by modeling in Maya and programming in MEL (Maya Embedded Language).</p>
+
+<p><span class="clearfix"> </span></p>
+</section>
+
+
+<section class="tab-view active" id="tab-publications">
+
+</section>
+
+
+
+<section class="tab-view active" id="tab-artists">
+
+<!-- -------------------------------------------------------------------- -->
+
+<p><span class="clearfix"> </span></p>
+
+
+<p><span class="clearfix"> </span></p>
+</section>
+
+</div>
+</main>
+<footer>
+<div class="container">
+&copy; 2017 Haru (Hyunkyung) Ji, haruoneday at gmail dot com
+</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/showdown.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/ofi.min.js"></script>
+<script>
+function onload() {
+
+	var genhtml = true;
+	
+	
+	if (genhtml) {
+		// translate markdown:
+		var converter = new Showdown.converter({
+			ghCompatibleHeaderId: true,
+			literalMidWordUnderscores: true,
+		});
+		$(".tab-view").each(function() {
+			var id = $(this).attr("id");
+			var src = $("#" + id + "-markdown");
+			var text = src.html();
+		
+			var html = converter.makeHtml(text);
+			console.log("<!-- " + id + " -->");
+			console.log(html);
+		
+			var section = $(this);
+			section.html(html);
+		});
+	}
+	
+	// get chosen tab:
+	function showtab(href) {
+		//console.log("show", href);
+	
+		// hide all tabs:
+		$('.tab-view.active', $(href).parent()).removeClass('active');
+		// show chosen tab:
+		$(href).addClass('active');
+		
+		// highlight chosen link
+		$('li a.active').removeClass('active');
+		// find link with this href:
+		$('a[href="'+href+'"]').addClass('active');
+	}
+	// auto select on load:
+	function loadtab() {
+		// auto select on load:
+		var tab = window.location.hash.substr(1);
+		//console.log("loadtab", tab);
+		if (tab) { 
+			showtab("#"+tab);
+		} else {
+			showtab("#tab-works");
+		}
+	}
+	loadtab();
+    //$(window).on("hashchange", loadtab);
+    window.onhashchange = loadtab;
+    
+    // windows hack to scale images
+	objectFitImages();
+    
+	// enable tab buttons:
+	$('nav ul li a').click(function() {
+        var href = $(this).attr('href');
+        //console.log("clicked", href);
+        showtab(href);
+    });
+    
+	// for each gallery:
+	$('.gallery').each(function() { 
+		var title = $(this).attr('data-title');
+		$(this).magnificPopup({
+			gallery: { 
+				enabled: true,
+				preload: [1,2]
+			},
+		
+			delegate: 'a',
+			type: 'image',
+			closeBtnInside: true,
+			mainClass: 'mfp-with-zoom mfp-img-mobile',
+			image: {
+				verticalFit: true,
+				titleSrc: function(item) {
+					var caption = title;
+					var local = ( item.el.attr('data-title') );
+					if (caption && caption.length && local && local.length) {
+						caption = caption + ": " + local;
+					} else if (!caption || !caption.length) {
+						caption = local;
+					}
+					//return item.el.attr('data-title') + ' &middot; <a  href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
+					return caption;
+				}
+			},
+			zoom: {
+				enabled: true,
+				duration: 300, // don't foget to change the duration also in CSS
+				opener: function(element) {
+					console.log("opener");
+					return element.find('img');
+				}
+			},
+			callbacks: {
+				afterClose: function() {
+					// unfocus the active element (the original image) to get rid of focus blur.
+					$(':focus').blur();
+				}
+			}
+		});
+	});
+};
+
+$(onload);
+
+</script>
+
+</body>
+</html>
