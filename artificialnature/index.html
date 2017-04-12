@@ -66,6 +66,7 @@ header {
 
 main {
 	margin: 5em auto 4em auto;
+	z-index: 10;
 }
 
 footer {
@@ -90,10 +91,56 @@ footer a {
 	color: inherit; 
 } 
 
+#background {
+	position: relative; 
+	top: 0; 
+	left: 0;
+	width: 100%;
+	
+	overflow: hidden;
+	opacity: 1.0;
+	z-index: -1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/cover/cover_default.jpg); 
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
+#homeslides {
+	position: relative;
+}
+
+#homeslides img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
+#homeimg {
+	width: 100%;
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
 .container {
 	width:90%; max-width: 960px;	/* page width */
 	margin: 0 auto 0 auto;
-	
 }
 
 /* Lists
@@ -298,6 +345,19 @@ video {
 </style>
 </head>
 <body>
+<header>
+<div class="container">
+<nav>
+<ul>
+  <li><a href="#tab-home" class="home">Artificial Nature</a></li>
+  <li><a href="#tab-works">Works</a></li>
+  <li><a href="#tab-research">Research</a></li>
+  <li><a href="#tab-artists">Artists</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
 
 <!-- -------------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------------- -->
@@ -315,6 +375,33 @@ video {
 <!-- -------------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------------- -->
 
+
+<div style="display: none" id="tab-home-markdown">
+
+
+
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+
+<div id="homeslides"></div>
+<img src="img/cover/cover_default.gif" style="width: 100%">
+
+*Artificial Nature* is a research project and an evolving series of art installations by [Haru Ji and Graham Wakefield](#tab-artists). 
+
+Since 2008, Artificial Nature [artworks](#tab-works) have taken part in numerous exhibitions, including festivals such as SIGGRAPH (Yokohama), Microwave (Hong Kong), Digital Art Festival (Taipei), conferences such as ISEA (Singapore), and EvoWorkshops (Tubingen), and venues including La Gaite Lyrique (Paris), ZKM (Karlsruhe), CAFA (Beijing) and City Hall (Seoul).
+
+- **Endless Current** selected among 21 projects for the [Kaledioscope Virtual Reality Showcase volume II](http://kaleidovr.com/updates/kaleidoscope-launches-showcase-vol-02) -- an international showcase exploring the art & science of virtual reality. 
+
+- **Endless Current** for HTC Vive is now available on the [Viveport](https://www.viveport.com/apps/2905a17c-4835-409a-bfe5-f8d2a2f79f27) distribution network.
+
+- The Artificial Nature project is a member of the [Living Architecture Systems Group](http://livingarchitecturesystems.com), led by Philip Beesley.
+
+- **Archipelago** one of five works awarded Honourable Mention in the Finished Project category of the [VIDA 16.0 Art &amp; Artificial Life competition](http://vida.fundaciontelefonica.com/en/portfolio/2-special-mentions/).
+
+- **Archipelago** awarded 1st prize in the national Powerstation of Creativity competition, Seoul Arts Foundation.
+
+
+</div>
 
 <div style="display: none" id="tab-works-markdown">
 
@@ -626,9 +713,12 @@ Genetic Morphology Study is an initial exploration into evolutionary algorithms;
 
 </div>
 
-<div style="display: none" id="tab-publications-markdown">
+<div style="display: none" id="tab-research-markdown">
 
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
 
+## Publications
 
 - <strong>In press:</strong> Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In <em>Worldmaking as Techn&eacute;: Exploring Worlds of Participatory Art, Architecture, and Music</em>, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2017. 
 
@@ -670,6 +760,9 @@ Genetic Morphology Study is an initial exploration into evolutionary algorithms;
 
 <div style="display: none" id="tab-artists-markdown">
 
+<!-- -------------------------------------------------------------------- -->
+<span class="clearfix"> </span>
+
 ## Haru Ji
 
 Haru Ji is a TransArtist and researcher exploring the subject of life in art through Artificial Life Worldmaking: a form of computational generative art creating and evolving virtual ecosystems as immersive environments. She holds a Ph.D. in [Media Arts and Technology](http://mat.ucsb.edu) at the University of California Santa Barbara and is an assistant professor of Art & Technology in the School of Consilience at Sogang University in Seoul, Korea. She attained a Master and a Bachelor of Fine Arts in Sculpture from Seoul National University, and studied image engineering, computer graphics and 3D animation at Chung-Ang University, both in Seoul, Korea. She has exhibited computational installations, digital sculptures, virtual architecture, video installations, sculptural objects and 3D animations at exhibitions and art festivals worldwide including ISEA, EvoWorkshops, and SIGGRAPH, with corresponding publications. She is a co-creator of the research project and immersive ecosystem "Artificial Nature", exploring the expansion of media art towards ‘art-as-it-could-be’. It is an amalgam of play, research, and art, which raises novel and significant questions regarding the trans-disciplinary interpretation of both subjective beauty and objective truth in art and biology. 
@@ -699,22 +792,16 @@ Graham Wakefield's research has evolved from computer music composition to the g
 <!-- -------------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------------- -->
 
-<header>
-<div class="container">
-<nav>
-<ul>
-  <li>Artificial Nature</li>
-  <li><a href="#tab-works">Works</a></li>
-  <li><a href="#tab-publications">Publications</a></li>
-  <li><a href="#tab-artists">Artists</a></li>
-</ul>
-</nav>
-</div>
-</header>
+
 <main>
 <div class="container">
 
 <!-- BEGIN GENERATED CONTENT HERE -->
+
+<section class="tab-view" id="tab-home">
+
+</section>
+
 <!-- tab-works -->
 <section class="tab-view" id="tab-works">
 <!-- -------------------------------------------------------------------- -->
@@ -1010,8 +1097,8 @@ Feb 20-22 2012.</p>
 </ul>
 </section>
 <!-- end of tab-works -->
-<!-- tab-publications -->
-<section class="tab-view" id="tab-publications">
+<!-- tab-research -->
+<section class="tab-view" id="tab-research">
 <ul>
 <li><p><strong>In press:</strong> Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In <em>Worldmaking as Techné: Exploring Worlds of Participatory Art, Architecture, and Music</em>, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2017. </p></li>
 <li><p>Haru (Hyunkyung) Ji, Graham Wakefield. "Recent Realizations of Artificial Nature." In <em>Living Architecture Systems Group White Papers</em>. Riverside Architectural Press, 2016.</p></li>
@@ -1032,7 +1119,7 @@ Feb 20-22 2012.</p>
 <li><p>Haru (Hyunkyung) Ji, Graham Wakefield. "Artificial Nature as an Infinite Game." In <em>Proceedings of ASIAGRAPH</em> (Shanghai, China). ASIAGRAPH, July, 2008. </p></li>
 </ul>
 </section>
-<!-- end of tab-publications -->
+<!-- end of tab-research -->
 <!-- tab-artists -->
 <section class="tab-view" id="tab-artists">
 <h2 id="haruji">Haru Ji</h2>
@@ -1065,7 +1152,7 @@ Feb 20-22 2012.</p>
 <script>
 function onload() {
 
-	var genhtml = false;
+	var genhtml = 1;
 	
 	
 	if (genhtml) {
@@ -1117,6 +1204,9 @@ function onload() {
 		$('li a.active').removeClass('active');
 		// find link with this href:
 		$('a[href="'+href+'"]').addClass('active');
+		
+		// scroll up
+		window.scrollTo(0, 0);
 	}
 	// auto select on load:
 	function loadtab() {
@@ -1126,7 +1216,7 @@ function onload() {
 		if (tab) { 
 			showtab("#"+tab);
 		} else {
-			showtab("#tab-works");
+			showtab("#tab-home");
 		}
 	}
 	loadtab();
@@ -1185,6 +1275,63 @@ function onload() {
 				}
 			}
 		});
+	});
+	
+	// animate slideshow on homepage
+	var cover_images = ["cover_0769.jpg",
+		"cover_arch_3916.jpg",
+		"cover_arch_3965.jpg",
+		"cover_arch_4259.jpg",
+		"cover_arch_4260.jpg",
+		"cover_chrono_render2.jpg",
+		"cover_fluid_space_screenshot1.jpg",
+		"cover_flux_allosphere.jpg",
+		"cover_FS07.jpg",
+		"cover_genetic1.jpg",
+		"cover_ig_screenshot1.jpg",
+		"cover_ig_screenshot2.jpg",
+		"cover_TO01.jpg",
+		"cover_TO07.jpg",
+		"cover_tod_soma.jpg",
+		"cover_tod_translab.jpg"];
+	
+	
+	
+	
+	/*
+	function slideimg() {
+		setTimeout(function () {
+		
+			var img = cover_images.splice(
+				Math.floor(Math.random()*(cover_images.length/2)), 
+				1)[0];
+			cover_images.push(img);
+			var src = "img/cover/"+img;
+			console.log(src);
+			
+			$('.container #homeimg').attr('src', src);
+			//$('.container #homeimg').attr('src').replace(src);
+			//css('background-image', "url(img/cover/"+img+")");  
+			slideimg();
+		}, 5000);
+	}
+
+	
+	slideimg();
+	*/
+	
+	var fadetime = 1500;
+	var lastimg;
+	var img = cover_images.splice(
+		Math.floor(Math.random()*(cover_images.length/2)), 
+		1)[0];
+	cover_images.push(img);
+	$('<img src="img/cover/'+ img +'">').on("load", function() {
+  		$(this).appendTo('.container #homeslides').hide().fadeIn(fadetime);
+  		if (lastimg) {
+  			lastimg.fadeOut(fadetime).remove();
+  		}
+  		
 	});
 };
 
