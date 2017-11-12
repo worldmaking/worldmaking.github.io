@@ -87,6 +87,31 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 - Archipelago. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Seoul Sangsangryok Baljeonso (Imagination Powerhouse). City Hall, Seoul, Korea.  2014-10-01 - 2014-10-21 (Juried competition, International).
 - Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Artience Project Daejeon. Korea Research Institute of Standards and Science, Daejeon, Korea.  2014-08-23 - 2014-09-02 (Curated, National).
 
+## Talks, panels, guest lectures, and workshops
+
+*(Excluding conference presentations with publications)*
+
+- Live Code a Language as Instrument (Workshop). 
+The International Conference on New Interfaces for Musical Expression, Aalborg University Copenhagen, Denmark, 2017-06-15
+- Design a Mini Live Coding Language (Workshop). 
+International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
+- Artificial Natures (Artist talk). Weird Reality: Head-Mounted Art && Code, Carnegie Mellon University, Pittsburgh, USA, 2016-10-08
+- Interactive Art: Animating Public Space (Panel talk). Media Architecture Summit 2016, TIFF Bell Lightbox, Toronto, Canada, 2016-09-30
+- Computational Art in Mixed Realities (Research talk). Centre for Vision Research Retreat, York Glendon Hall, Toronto, Canada, 2016-09-16
+- Computational Worldmaking (Guest lecture). Graduate Seminar, School of Interactive Games & Media, Rochester Institute of Technology, USA, 2016-09-01
+- Virtual Reality Worldmaking (Lecture/workshop). Imagination Seminar, Art & Technology program, Sogang University, Korea, 2016-07-15
+- Artificial Natures (Guest lecture). Future City Society, SCALe, Korea, 2016-07-13
+- Advanced Gen Programming (Workshop). TACIT media studio, Korea, 2016-07-08
+- Artificial Natures (Guest lecture). Computational Aesthetics, School of Interactive Games & Media, Rochester Institute of Technology, USA, 2016-03-07
+- Data Imaginaries (Artist talk). Leonardo Art Science Evening Rendezvouz (LASER) / Art-Science Salon, Fields Institute, University of Toronto, Canada, 2015-11-19
+- Computational Worldmaking (Artist talk). Centre for Vision Research seminar series, York University, Toronto, Canada, 2015-11-06
+- Bridging Web-Based Visualization and 3D (Workshop). Canadian Visual Analytics School (CANVAS), York University, Toronto, Canada, 2015-07-28
+- Artificial Nature: Mixed-Reality Ecosystem (Construction of Aesthetic Experience) (Forum talk). Asia Pacific Center for Theoretical Physics (APCTP) Science Communication Forum, Korea Astronomy and Space Science Institute, Sobaek Optical Astronomy Observatory, Republic of Korea, 2015.07.08 - 2015.07.10
+- Introduction to Artificial Life (Workshop). Seoul Science High School, Korea, 2015-07-06
+- Becoming There: Immersed in Computation (Artist talk). Sensorium Lecture Series, York University, Toronto, Canada, 2015-02-24
+- Becoming There: Immersed in Computation (Panel). Exploring the Frontiers of Science & Technology, York University, Toronto, Canada, 2015-01-28
+
+
 ## Students
 
 - David Han, PhD Cinema and Media Studies.
