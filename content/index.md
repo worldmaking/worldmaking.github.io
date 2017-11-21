@@ -55,13 +55,13 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
-- In press: Haru (Hyunkyung) Ji, Graham Wakefield. "Biotopes Numériques (Computational Biotopes)." In Stream 4 Le Paradigme du Vivant (The Paradigm of Living Systems). Philippe Chiambaretta Architecte, November, 2017.
 - In press: Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In Worldmaking as Techné: Exploring Worlds of Participatory Art, Architecture, and Music, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2017.
 - In press: Charles Roberts, Graham Wakefield. "Tensions & Techniques in Live Coding Performance." In The Oxford Handbook of Algorithmic Music, edited by Roger Dean, Alex McLean. Oxford University Press, 2017.
-- Haru (Hyunkyung) Ji, Graham Wakefield. "Recent Realizations of Artificial Nature." In Living Architecture Systems Group White Papers. Riverside Architectural Press, 2016.
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Biotopes Computationnels (Computational Biotopes)." In Stream 4 Le Paradigme du Vivant (The Paradigm of Living Systems), pp304-316. Philippe Chiambaretta Architecte, November, 2017.
 - Graham Wakefield, Charles Roberts. A Virtual Machine for Live Coding Language Design. Proceedings of the International Conference on New Interfaces for Musical Expression (Copenhagen, Denmark). 2017.
 - Charles Roberts, Graham Wakefield. gibberwocky: New Live-Coding Instruments for Musical Performance. Proceedings of the International Conference on New Interfaces for Musical Expression (Copenhagen, Denmark). 2017.
 - Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Recent Realizations of Artificial Nature." In Living Architecture Systems Group White Papers. Riverside Architectural Press, 2016.
 - Charles Roberts, Graham Wakefield. "Live Coding the Digital Audio Workstation." In Proceedings of the International Conference on Live Coding (Hamilton, Canada). October, 2016.
 - Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Environmental Interaction in Audio Feedback Systems." Applied Sciences 6, no. 5 (May, 2016): 125.
 - Haru (Hyunkyung) Ji, Graham Wakefield. "Endogenous Biologically Inspired Art of Complex Systems." Computer Graphics and Applications 36, no. 1 (January, 2016): 16-21. IEEE Computer Society.
@@ -74,6 +74,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
+- Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Requiem for Hybrid Life, Seoul Museum of Art (Chang-go), Seoul, Korea. 2017-10-17 - 2017-10-23 (Curated, International).
 - Inhabitat. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Interactive Media Theatre. MOXI Museum of Exploration of Innovation, Santa Barbara, USA.  2017-08-10 - 2018-01-08 (Commissioned, International).
 - Portrait. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  First Thursday Festival. SBCAST, Santa Barbara, USA.  2017-08-03 (Curated, Local).
 - Portrait. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Currents New Media Festival. El Museo Cultural, Santa Fe, USA.  2017-06-09 - 2017-06-25 (Juried, International).
@@ -96,7 +97,7 @@ The International Conference on New Interfaces for Musical Expression, Aalborg U
 - Design a Mini Live Coding Language (Workshop). 
 International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
 - Artificial Natures (Artist talk). Weird Reality: Head-Mounted Art && Code, Carnegie Mellon University, Pittsburgh, USA, 2016-10-08
-- Interactive Art: Animating Public Space (Panel talk). Media Architecture Summit 2016, TIFF Bell Lightbox, Toronto, Canada, 2016-09-30
+- Interactive Art: Animating Public Space (Panel talk). Media Architecture Summit 2016, oTIFF Bell Lightbox, Toronto, Canada, 2016-09-30
 - Computational Art in Mixed Realities (Research talk). Centre for Vision Research Retreat, York Glendon Hall, Toronto, Canada, 2016-09-16
 - Computational Worldmaking (Guest lecture). Graduate Seminar, School of Interactive Games & Media, Rochester Institute of Technology, USA, 2016-09-01
 - Virtual Reality Worldmaking (Lecture/workshop). Imagination Seminar, Art & Technology program, Sogang University, Korea, 2016-07-15
