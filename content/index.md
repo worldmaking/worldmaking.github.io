@@ -119,6 +119,7 @@ International Conference on Live Coding, Centre 3 for Print and Media Arts, Hami
 - Alison Humphrey, PhD Cinema and Media Studies.
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
+- Slavica Ceperkovic, PhD Cinema and Media Studies.
 - Andrew Sidsworth, Digital Media program.
 - Nicholas Abbruzzese, Digital Media program.
 - Zachary Shron, Digital Media program.
