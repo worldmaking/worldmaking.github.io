@@ -1,0 +1,322 @@
+
+body {
+	font-family: 'Roboto', 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	
+	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+		*/
+	text-rendering: optimizeLegibility !important;
+	line-height: 1.4em;
+	font-weight: 300;
+	color: #ddd; 
+	background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 100; 
+}
+h1 { font-size: 3.0rem; line-height: 3rem; }
+h2 { font-size: 2.4rem; line-height: 3rem; }
+h3 { font-size: 2.0rem; line-height: 2rem; }
+h4 { font-size: 1.8rem; line-height: 2rem; }
+h5 { font-size: 1.7rem; line-height: 2rem; }
+h6 { font-size: 1.6rem; line-height: 2rem; }
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	z-index: 10;
+	
+	display: flex;
+	align-items: center;
+	
+	/*background-color: rgba(10,10,10,0.75);*/
+	background-color: #444;
+	color: #fff;
+	
+	font-size: 2em;
+}
+
+main {
+	margin: 5em auto 4em auto;
+	z-index: 10;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	font-size: 0.8em;
+	z-index: 10;
+	
+	display: flex;
+	align-items: center;
+	
+	/*background-color: rgba(10,10,10,0.75);*/
+	background-color: #444;
+	color: #bbb;
+	
+}
+
+footer a { 
+	color: inherit; 
+} 
+
+#background {
+	position: relative; 
+	top: 0; 
+	left: 0;
+	width: 100%;
+	
+	overflow: hidden;
+	opacity: 1.0;
+	z-index: -1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/cover/cover_default.jpg); 
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
+#homeslides {
+	position: relative;
+}
+
+#homeslides img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
+#homeimg {
+	width: 100%;
+	-webkit-transition: background-image 1.5s linear;
+	-moz-transition: background-image 1.5s linear;
+	-o-transition: background-image 1.5s linear;
+	-ms-transition: background-image 1.5s linear;
+	transition: background-image 1.5s linear;
+}
+
+.container {
+	width:90%; max-width: 960px;	/* page width */
+	margin: 0 auto 0 auto;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { list-style: circle; }
+ol { list-style: decimal; }
+  
+ol, ul {
+	padding-left: 0;
+	margin-left: 1rem;
+}
+
+li { 
+	padding 0px; 
+	margin-top: 0.5em;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+a, a:visited, a:link, a:hover, a:active {
+	text-decoration: none;
+	background-color: transparent;
+	color: #33bbee;
+   	border-color: #33bbee;
+    border-style: dotted;
+	border-width: 0 0 0px 0;
+}
+
+a:hover {
+	border-width: 0 0 1px 0;	
+}
+
+a img, a:hover img {
+	border-width: 0px;
+	text-decoration: none;
+}
+
+/* nav */
+nav ul {
+    list-style: none;
+    /*border-bottom: 1px solid #bbb;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0.25em 0 0;
+}
+
+nav a, nav a:visited, nav a:link, nav a:visited {
+	color: #999;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: 400;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+nav a.active {
+	color: #fff;
+}
+
+/* tabs */
+.tab-view {
+	display: none;
+}
+
+.tab-view.active {
+	display: block;
+}
+
+/* panels */
+
+.side {
+	position: relative;
+	float: right;
+	width: 50%;
+	padding: 0;
+	margin-left: 5%;
+	background-color: #222;
+	clear: both;
+}
+
+/* responsive embed */
+
+.embed {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 4em;
+}
+
+/* thumbnails */
+.thumbnailgrid {
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	background-color: #222;
+}
+
+.width30 {
+	width:32%;
+}
+
+.width20 {
+	width:19%;
+}
+
+.thumbnail {
+    overflow: hidden;
+    position: relative;
+    /*display: inline-block;*/
+    float: left;
+    margin: 0.5%;
+    padding: 0px;
+}
+.thumbnail:hover {
+    border-style: none;
+}
+/* hack to force thumbnail to be square */
+.thumbnail:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-style: none;
+  border-width: 0px;
+  margin: 0%;
+  padding: 0;
+}
+
+.thumbnail:visited img {
+  border-style: none;
+}
+
+/* http://dimsemenov.com/plugins/magnific-popup */
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
