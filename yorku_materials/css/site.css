@@ -213,7 +213,7 @@ nav a.active {
 .side_narrow {
 	position: relative;
 	float: right;
-	width: 20%;
+	width: 25%;
 	padding: 0;
 	margin-left: 5%;
 	margin-bottom: 5%;
@@ -263,7 +263,7 @@ video {
 }
 
 .width30 {
-	width:32%;
+	width:30%;
 }
 
 .width100 {
@@ -279,7 +279,8 @@ video {
     position: relative;
     /*display: inline-block;*/
     float: left;
-    margin: 2%;
+	margin: 1%;
+	padding: 0px;
 }
 .thumbnail:hover {
     border-style: none;
