@@ -55,9 +55,11 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
-- In press: Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In Worldmaking as Techné: Exploring Worlds of Participatory Art, Architecture, and Music, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2017.
-- In press: Charles Roberts, Graham Wakefield. "Tensions & Techniques in Live Coding Performance." In The Oxford Handbook of Algorithmic Music, edited by Roger Dean, Alex McLean. Oxford University Press, 2017.
-- Haru (Hyunkyung) Ji, Graham Wakefield. "Biotopes Computationnels (Computational Biotopes)." In Stream 4 Le Paradigme du Vivant (The Paradigm of Living Systems), pp304-316. Philippe Chiambaretta Architecte, November, 2017.
+- Haru (Hyunkyung) Ji, Graham Wakefield. ["Inhabitat: an Imaginary Ecosystem in a Children’s Science Museum."](https://www.leonardo.info/journal-issue/leonardo/51/4) Leonardo Vol. 51, No. 4, pp. 343–348, 2018. (Leonardo 50th anniversary issue, SIGGRAPH 2018 special issue)
+- Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In [Worldmaking as Techné](http://worldmakingastechne.net/): Exploring Worlds of Participatory Art, Architecture, and Music, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2018.
+- Charles Roberts, Graham Wakefield. "Tensions & Techniques in Live Coding Performance." In The Oxford Handbook of Algorithmic Music, edited by Roger Dean, Alex McLean. Oxford University Press, February 2018.
+- Charles Roberts, Graham Wakefield, Matthew Wright. "Reflections on Synthesis and Instrument Design for the Browser” and “The Web Browser As Synthesizer And Interface." In The NIME Reader. Springer Verlag, Jan 2018.
+- Haru (Hyunkyung) Ji, Graham Wakefield. ["Biotopes Computationnels (Computational Biotopes)"https://www.pca-stream.com/fr/articles/haru-ji-graham-wakefield-biotopes-computationnels-110) In Stream 04: Les Paradoxes du vivant (The Paradoxes of the Living), pp. 304-316 Philippe Chiambaretta Architecte, Paris, November 2017.
 - Graham Wakefield, Charles Roberts. A Virtual Machine for Live Coding Language Design. Proceedings of the International Conference on New Interfaces for Musical Expression (Copenhagen, Denmark). 2017.
 - Charles Roberts, Graham Wakefield. gibberwocky: New Live-Coding Instruments for Musical Performance. Proceedings of the International Conference on New Interfaces for Musical Expression (Copenhagen, Denmark). 2017.
 - Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
@@ -74,6 +76,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
+- Insuperposition. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Daejeon Bienalle 2018 "Bio", Daejeon Museum of Art, Daejeon, Korea. 2018-07-16 - 2017-10-24. 
 - Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Requiem for Hybrid Life, Seoul Museum of Art (Chang-go), Seoul, Korea. 2017-10-17 - 2017-10-23 (Curated, International).
 - Inhabitat. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Interactive Media Theatre. MOXI Museum of Exploration of Innovation, Santa Barbara, USA.  2017-08-10 - 2018-01-08 (Commissioned, International).
 - Portrait. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  First Thursday Festival. SBCAST, Santa Barbara, USA.  2017-08-03 (Curated, Local).
