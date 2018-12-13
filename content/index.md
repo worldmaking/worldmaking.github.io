@@ -76,6 +76,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
+- Infranet: Gwangju. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Gwangju Media Art Festival 2018 "Algorithm Society: Birth of The Machine-God", Asia Culture Center (ACC), Gwangju, Korea. 2018-11-28 - 2018-12-7.
 - Insuperposition. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Daejeon Bienalle 2018 "Bio", Daejeon Museum of Art, Daejeon, Korea. 2018-07-16 - 2017-10-24. 
 - Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Requiem for Hybrid Life, Seoul Museum of Art (Chang-go), Seoul, Korea. 2017-10-17 - 2017-10-23 (Curated, International).
 - Inhabitat. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Interactive Media Theatre. MOXI Museum of Exploration of Innovation, Santa Barbara, USA.  2017-08-10 - 2018-01-08 (Commissioned, International).
@@ -97,8 +98,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 - Live Code a Language as Instrument (Workshop). 
 The International Conference on New Interfaces for Musical Expression, Aalborg University Copenhagen, Denmark, 2017-06-15
-- Design a Mini Live Coding Language (Workshop). 
-International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
+- Design a Mini Live Coding Language (Workshop). International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
 - Artificial Natures (Artist talk). Weird Reality: Head-Mounted Art && Code, Carnegie Mellon University, Pittsburgh, USA, 2016-10-08
 - Interactive Art: Animating Public Space (Panel talk). Media Architecture Summit 2016, oTIFF Bell Lightbox, Toronto, Canada, 2016-09-30
 - Computational Art in Mixed Realities (Research talk). Centre for Vision Research Retreat, York Glendon Hall, Toronto, Canada, 2016-09-16
@@ -118,11 +118,19 @@ International Conference on Live Coding, Centre 3 for Print and Media Arts, Hami
 
 ## Students
 
+- Sarah Vollmer, MSc Digital Media.
+- Michael Palumbo, PhD Theatre & Performance Studies.
 - David Han, PhD Cinema and Media Studies.
 - Alison Humphrey, PhD Cinema and Media Studies.
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
+
+- Nicole Skrypuch, Digital Media program.
+- Filiz Eryilmaz, Digital Media program.
+- Amir Bahador Rostami, Digital Media program.
+- Adiola Palmer, Digital Media program.
+- Alex Zonta, Digital Media program.
 - Andrew Sidsworth, Digital Media program.
 - Nicholas Abbruzzese, Digital Media program.
 - Zachary Shron, Digital Media program.
@@ -144,6 +152,10 @@ International Conference on Live Coding, Centre 3 for Print and Media Arts, Hami
 [Room 309, Goldfarb Center for Fine Arts,    
 School of the Arts, Media, Performance, and Design, York University,    
 86 Fine Arts Rd, Toronto, ON M3J 1P3, Canada](https://www.google.com/maps/place/York+University+-+School+of+the+Arts,+Media,+Performance+%26+Design/@43.7720603,-79.5042865,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2e2503c24255:0x2cc3089a2eef129!8m2!3d43.7720603!4d-79.5020978)
+
+Getting there from the York University TTC Subway station:
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1D6CuFDSm6UU3noagSocNRw7kbyFnvsVu" width="640" height="480"></iframe>
 
 <a class="button button-primary" href="https://calendar.google.com/calendar/embed?src=i6gs0tohrmg0rv6umrfqklo9co%40group.calendar.google.com&ctz=America/Toronto">Lab booking calendar</a>
 
