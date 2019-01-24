@@ -1,4 +1,3 @@
-
 /*
 A collection of utilities for prototyping artificial life experiments in the browser
 
@@ -858,6 +857,14 @@ vec2.anglebetween = function(a, b) {
 		return 0; // not mathematically accurate, but more useful than NaN
 	}
 };
+  
+vec2.oob = function(v, lo, hi) {
+  if (hi === undefined) { 
+		hi = lo;
+		lo = 0; 
+	}
+  return v[0] < lo || v[0] >= hi || v[1] < lo || v[1] >= hi; 
+}
 
 vec2.equals = function(a, b) { return a[0] == b[0] && a[1] == b[1]; };
 
@@ -1147,6 +1154,7 @@ vec2.prototype.angle = function(a) {
 };
 vec2.prototype.distance = function(v) { return vec2.distance(this, v); };
 vec2.prototype.anglebetween = function(v) { return vec2.anglebetween(this, v); };
+vec2.prototype.oob = function(lo, hi) { return vec2.oob(this, lo, hi); }
 vec2.prototype.dot = function(v) { return vec2.dot(this, v); };
 vec2.prototype.equals = function(v) { return vec2.equals(this, v); };
 vec2.prototype.set = function(x, y) { return vec2.set(this, x, y); };
@@ -1189,7 +1197,7 @@ vec2.prototype.scale = vec2.prototype.mul;
 vec2.prototype.subtract = vec2.prototype.sub;
 vec2.prototype.multiply = vec2.prototype.mul;
 vec2.prototype.divide = vec2.prototype.div;
-vec2.prototype.clamp = vec2.prototype.clamp;
+vec2.prototype.clamp = vec2.prototype.clip;
 vec2.prototype.lerp = vec2.prototype.mix;
 
 // utility constructors:
