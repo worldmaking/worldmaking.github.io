@@ -1,3 +1,4 @@
+
 /*
 A collection of utilities for prototyping artificial life experiments in the browser
 
@@ -53,6 +54,10 @@ isarraylike = function(o) {
 wrap = function (n, m) {
 	return ((n%m)+m)%m;
 };
+  
+clamp = function(n, lo, hi) {
+  return Math.min(Math.max(n, lo), hi);
+}
 
 class FPS {
   constructor() {
@@ -89,6 +94,7 @@ let ctx = canvas.getContext("2d");
 let ctxtransform = [1, 0, 
                     0, 1, 
                     0, 0];
+let ctxpixelscale = 1;
 let overlay = document.createElement("div");
 document.body.style.margin = "0px";
 document.body.style.padding = "0px";
@@ -192,10 +198,14 @@ onresize = function() {
                   x, y];
   
   ctx.resetTransform();
-  ctx.transform(ctxtransform[0], ctxtransform[1],
+  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  ctx.setTransform(ctxtransform[0], ctxtransform[1],
                  ctxtransform[2], ctxtransform[3], 
                  ctxtransform[4], ctxtransform[5]);
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctxpixelscale = 1/ctxtransform[0];
+  ctx.lineWidth = ctxpixelscale;
+  ctx.fillStyle = "white";
+  ctx.strokeStyle = "white";
 }
   
 function render() {
@@ -212,9 +222,14 @@ function render() {
   
   if (typeof(draw) === "function") {
     ctx.resetTransform();
-    ctx.transform(ctxtransform[0], ctxtransform[1],
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    ctx.setTransform(ctxtransform[0], ctxtransform[1],
                  ctxtransform[2], ctxtransform[3], 
                  ctxtransform[4], ctxtransform[5]);
+    ctxpixelscale = 1/ctxtransform[0];
+    ctx.lineWidth = ctxpixelscale;
+    ctx.fillStyle = "white";
+    ctx.strokeStyle = "white";
     draw(ctx);
   }
   
@@ -532,8 +547,8 @@ field2D.prototype.add = field2D.prototype.offset;
 field2D.prototype.normalize = function() {
 	let array = this.array;
 	const w = this.width, h = this.height, l = array.length;
-	const lo = Math.min(array[0], array[1], array[2]);
-	const hi = Math.max(array[0], array[1], array[2]);
+	let lo = Math.min(array[0], array[1], array[2]);
+	let hi = Math.max(array[0], array[1], array[2]);
 	for (let i = 4; i < l; i += 4) {
 		lo = Math.min(lo, array[i], array[i + 1], array[i + 2]);
 		hi = Math.max(hi, array[i], array[i + 1], array[i + 2]);
@@ -541,7 +556,7 @@ field2D.prototype.normalize = function() {
 	const range = hi - lo;
 	if (range > 0) {
 		const scale = 1 / range;
-		for (i = 0; i < l; i += 4) {
+		for (let i = 0; i < l; i += 4) {
 			array[i    ] = scale * (array[i    ] - lo);
 			array[i + 1] = scale * (array[i + 1] - lo);
 			array[i + 2] = scale * (array[i + 2] - lo);
@@ -626,7 +641,7 @@ field2D.prototype.deposit = function(value, x, y, channel) {
 	for (var c = c0; c < c1; c++) {
 		const v = value; 
 		if (isarraylike(value)) v = v[c];
-		if (v !== undefined) {
+    if (v !== undefined) {
 			// old value
 			const v00 = array[i00 + c];
 			const v10 = array[i10 + c];
@@ -635,8 +650,8 @@ field2D.prototype.deposit = function(value, x, y, channel) {
 			// interpolated addition:
 			array[i00 + c] = v00 + xa*ya*(v);
 			array[i10 + c] = v10 + xb*ya*(v);
-			array[i01 + c] = v01 + xa*ya*(v);
-			array[i11 + c] = v11 + xb*ya*(v);
+			array[i01 + c] = v01 + xa*yb*(v);
+			array[i11 + c] = v11 + xb*yb*(v);
 		}
 	}
 	// TODO: handle case of a function?
@@ -711,8 +726,8 @@ field2D.prototype.update = function(value, x, y, channel) {
 			// interpolated addition:
 			array[i00 + c] = v00 + xa*ya*(v - v00);
 			array[i10 + c] = v10 + xb*ya*(v - v10);
-			array[i01 + c] = v01 + xa*ya*(v - v01);
-			array[i11 + c] = v11 + xb*ya*(v - v11);
+			array[i01 + c] = v01 + xa*yb*(v - v01);
+			array[i11 + c] = v11 + xb*yb*(v - v11);
 		}
 	}
 	// TODO: handle case of a function?
@@ -757,7 +772,7 @@ field2D.prototype.diffuse = function(sourcefield, diffusion, passes) {
   
 field2D.prototype.draw = function() {
   for (let i = 0, l = this.array.length; i < l; i++) {   
-    this.data[i] = Math.floor(this.array[i] * 255) & 0xff;
+    this.data[i] = Math.floor(clamp(this.array[i], 0, 1) * 255); 
   }
   this.ctx.putImageData(this.imgdata, 0, 0);
   
@@ -802,6 +817,595 @@ field2D.prototype.loadImage = function(path, callback) {
   // trigger the load:
   img.src = path; 
 }
+  
+  
+////////////////////////////////////////////////////////////////////
+// vec2
+////////////////////////////////////////////////////////////////////
+ 
+vec2 = function vec2(x, y) {
+	this[0] = x || 0;
+	this[1] = (y !== undefined) ? y : this[0];
+};
+
+vec2.create = function(x, y) { return new vec2(x, y); };
+
+vec2.clone = function(b) {
+	var out = new vec2();
+	if (typeof(b) == "object") {
+		out[0] = b[0];
+		out[1] = b[1];
+	} else if (typeof(b) == "number") {
+		out[0] = b;
+		out[1] = b;
+	} 
+	return out;
+};
+
+// 'static' methods:
+vec2.len = function(v) { return Math.sqrt(v[0]*v[0] + v[1]*v[1]); };
+vec2.angle = function(v) { return Math.atan2(v[1], v[0]); };
+vec2.dot = function(a, b) { return a[0]*b[0] + a[1]*b[1]; };
+vec2.distance = function(a, b) { 
+	var v = [ a[0]-b[0], a[1]-b[1] ];
+	return Math.sqrt(v[0]*v[0] + v[1]*v[1]);
+};
+vec2.anglebetween = function(a, b) {
+	var m = vec2.len(a)*vec2.len(b);
+	if (m > 0) {
+		return Math.acos(vec2.dot(a, b) / (vec2.len(a)*vec2.len(b)));
+	} else {
+		return 0; // not mathematically accurate, but more useful than NaN
+	}
+};
+
+vec2.equals = function(a, b) { return a[0] == b[0] && a[1] == b[1]; };
+
+// static methods with out args
+vec2.set = function(out, x, y) {
+	if (typeof x == "object") {
+		out[0] = x[0];
+		out[1] = x[1];
+	} else if (typeof x == "number") {
+		out[0] = x;
+		out[1] = (y !== undefined) ? y : x;
+	}
+	return out;
+};
+
+vec2.setmag = function(out, v, m) {
+	var d = vec2.len(v); 
+	if (d > 0) {
+		var r = m / d;
+		out[0] = v[0] * r;
+		out[1] = v[1] * r;
+	} 
+	return out;
+};
+
+vec2.setangle = function(out, v, a) {
+	var r = vec2.len(v); 
+	out[0] = r * Math.cos(a);
+	out[1] = r * Math.sin(a);
+	return out;
+};
+
+vec2.add = function(out, a, b) {
+	if (typeof(b) == "object") {
+		out[0] = a[0] + (b[0]);
+		out[1] = a[1] + (b[1]);
+	} else if (typeof(b) == "number") {
+		out[0] = a[0] + b;
+		out[1] = a[1] + b;
+	}
+	return out;
+};
+
+vec2.sub = function(out, a, b) {
+	if (typeof(b) == "object") {
+		out[0] = a[0] - (b[0]);
+		out[1] = a[1] - (b[1]);
+	} else if (typeof(b) == "number") {
+		out[0] = a[0] - b;
+		out[1] = a[1] - b;
+	}
+	return out;
+};
+
+vec2.absdiff = function(out, a, b) {
+	if (typeof(b) == "object") {
+		out[0] = Math.abs(a[0] - (b[0]));
+		out[1] = Math.abs(a[1] - (b[1]));
+	} else if (typeof(b) == "number") {
+		out[0] = Math.abs(a[0] - b);
+		out[1] = Math.abs(a[1] - b);
+	}
+	return out;
+};
+
+vec2.mul = function(out, a, b) {
+	if (typeof(b) == "object") {
+		out[0] = a[0] * (b[0]);
+		out[1] = a[1] * (b[1]);
+	} else if (typeof(b) == "number") {
+		out[0] = a[0] * b;
+		out[1] = a[1] * b;
+	}
+	return out;
+};
+
+vec2.div = function(out, a, b) {
+	if (typeof(b) == "object") {
+		out[0] = a[0] / (b[0]);
+		out[1] = a[1] / (b[1]);
+	} else if (typeof(b) == "number") {
+		out[0] = a[0] / b;
+		out[1] = a[1] / b;
+	}
+	return out;
+};
+
+vec2.wrap = function(out, v, xr, yr) {
+	var x = 1, y = 1;
+	if (typeof xr == "object") {
+		x = xr[0];
+		y = xr[1];
+	} else if (typeof xr == "number") {
+		x = xr;
+		y = (typeof yr == "number") ? yr : x;
+	}
+	out[0] = wrap(v[0], x);
+	out[1] = wrap(v[1], y);
+	return out;
+};
+
+vec2.lesser = function(out, a, b) {
+	if (typeof b == "object") {
+		out[0] = (Math.abs(a[0]) < Math.abs(b[0])) ? a[0] : b[0];
+		out[1] = (Math.abs(a[1]) < Math.abs(b[1])) ? a[1] : b[1];
+	} else if (typeof b == "number") {
+		out[0] = (Math.abs(a[0]) < Math.abs(b)) ? a[0] : b;
+		out[1] = (Math.abs(a[1]) < Math.abs(b)) ? a[1] : b;
+	}
+	return out;
+};
+
+vec2.greater = function(out, a, b) {
+	if (typeof b == "object") {
+		out[0] = (Math.abs(a[0]) >= Math.abs(b[0])) ? a[0] : b[0];
+		out[1] = (Math.abs(a[1]) >= Math.abs(b[1])) ? a[1] : b[1];
+	} else if (typeof b == "number") {
+		out[0] = (Math.abs(a[0]) >= Math.abs(b)) ? a[0] : b;
+		out[1] = (Math.abs(a[1]) >= Math.abs(b)) ? a[1] : b;
+	}
+	return out;
+};
+  
+let fold2 = function(f, def) {
+	def = def || 0;
+	return function(out, v, o) {
+		if (typeof o == "object") {
+			out[0] = f(v[0], o[0]);
+			out[1] = f(v[1], o[1]);
+		} else if (typeof o == "number") {
+			out[0] = f(v[0], o);
+			out[1] = f(v[1], o);
+		} else {
+			out[0] = f(v[0], def);
+			out[1] = f(v[1], def);
+		}
+		return out;
+	};
+};
+
+vec2.pow = fold2(Math.pow, 1);
+vec2.min = fold2(Math.min, 1);
+vec2.max = fold2(Math.max, 0);
+  
+vec2.clip = function(out, v, lo, hi) {
+	if (hi === undefined) { 
+		hi = lo;
+		lo = 0; 
+	}
+	return vec2.max(out, vec2.min(out, v, hi), lo);
+};
+vec2.clamp = vec2.clip;
+
+vec2.mix = function(out, a, b, t) {
+	if (typeof t == "object") {
+		var tb = [ t[0], t[1] ];
+		out[0] = a[0]*(1-t[0]) + b[0]*t[0];
+		out[1] = a[1]*(1-t[1]) + b[1]*t[1];
+		return out;
+	} else {
+		t = (typeof t == "number") ? t : 0.5;
+		var ta = 1-t;
+		out[0] = a[0]*ta + b[0]*t;
+		out[1] = a[1]*ta + b[1]*t;
+		return out;
+	}
+};
+
+vec2.relativewrap = function(out, v, xr, yr) {
+	var x = 1, y = 1;
+	if (typeof xr == "object") {
+		x = xr[0];
+		y = xr[1];
+	} else if (typeof xr == "number") {
+		x = xr;
+		y = (typeof yr == "number") ? yr : x;
+	}
+	var halfx = x * 0.5;
+	var halfy = y * 0.5;
+	out[0] = wrap(v[0] + halfx, x) - halfx;
+	out[1] = wrap(v[1] + halfy, y) - halfy;
+	return out;
+};
+
+vec2.normalize = function(out, v) {
+	var r = vec2.len(v);
+	if (r > 0) {
+		out[0] /= r;
+		out[1] /= r;
+		return out;
+	} else {
+		return out.random();
+	}
+};
+
+vec2.negate = function(out, v) {
+	out[0] = -v[0];
+	out[1] = -v[1];
+	return out;
+};
+  
+vec2.floor = function(out, v) {
+	out[0] = Math.floor(v[0]);
+	out[1] = Math.floor(v[1]);
+	return out;
+};
+  
+vec2.ceil = function(out, v) {
+	out[0] = Math.ceil(v[0]);
+	out[1] = Math.ceil(v[1]);
+	return out;
+};
+  
+vec2.round = function(out, v) {
+	out[0] = Math.round(v[0]);
+	out[1] = Math.round(v[1]);
+	return out;
+};
+
+vec2.limit = function(out, v, m) {
+	var r2 = vec2.dot(v, v);
+	if (r2 > m*m) {
+		var s = m / Math.sqrt(r2);
+		out[0] *= s;
+		out[1] *= s;
+	}
+	return out;
+};
+
+vec2.rotate = function(out, v, angle) {
+	var c = Math.cos(angle);
+	var s = Math.sin(angle);
+	var x = v[0], y = v[1];
+	out[0] = x * c - y * s;
+	out[1] = y * c + x * s;
+	return out;
+};
+
+// aliases:
+vec2.mag = vec2.len;
+vec2.magnitude = vec2.len;
+vec2.setlen = vec2.setmag;
+vec2.setlength = vec2.setmag;
+vec2.setmagnitude = vec2.setmag;
+vec2.dist = vec2.distance;
+vec2.copy = vec2.clone;
+vec2.translate = vec2.add;
+vec2.scale = vec2.mul;
+vec2.subtract = vec2.sub;
+vec2.multiply = vec2.mul;
+vec2.divide = vec2.div;
+vec2.clamp = vec2.clip;
+vec2.lerp = vec2.mix;
+
+// instance methods:
+vec2.prototype.fromAngle = function(a) {
+	a = (a !== undefined) ? a : 0;
+	this[0] = Math.cos(a);
+	this[1] = Math.sin(a);
+	return this;
+};
+
+vec2.prototype.fromPolar = function(r, a) {
+	// TODO: allow [r, a] input?
+	r = (r !== undefined) ? r : 1;
+	a = (a !== undefined) ? a : 0;
+	this[0] = r*Math.cos(a);
+	this[1] = r*Math.sin(a);
+	return this;
+};
+
+vec2.prototype.random = function(r) {
+	r = (r !== undefined) ? r : 1;
+	var a = random() * Math.PI * 2;
+	this[0] = Math.cos(a) * r;
+	this[1] = Math.sin(a) * r;
+	return this;
+};
+
+vec2.prototype.len = function(a) { 
+	if (a !== undefined) return vec2.setmag(this, this, a); 
+	return vec2.len(this); 
+};
+vec2.prototype.angle = function(a) { 
+	if (a !== undefined) return vec2.setangle(this, this, a); 
+	return vec2.angle(this);
+};
+vec2.prototype.distance = function(v) { return vec2.distance(this, v); };
+vec2.prototype.anglebetween = function(v) { return vec2.anglebetween(this, v); };
+vec2.prototype.dot = function(v) { return vec2.dot(this, v); };
+vec2.prototype.equals = function(v) { return vec2.equals(this, v); };
+vec2.prototype.set = function(x, y) { return vec2.set(this, x, y); };
+vec2.prototype.clone = function() { return vec2.clone(this); };
+
+vec2.prototype.setmag = function(a) { return vec2.setmag(this, this, a); };
+vec2.prototype.setangle = function(a) { return vec2.setangle(this, this, a); };
+vec2.prototype.add = function(b) { return vec2.add(this, this, b); };
+vec2.prototype.sub = function(b) { return vec2.sub(this, this, b); };
+vec2.prototype.absdiff = function(b) { return vec2.absdiff(this, this, b); };
+vec2.prototype.mul = function(b) { return vec2.mul(this, this, b); };
+vec2.prototype.div = function(b) { return vec2.div(this, this, b); };
+vec2.prototype.pow = function(x, y) { return vec2.pow(this, this, x, y); };
+vec2.prototype.max = function(x, y) { return vec2.max(this, this, x, y); };
+vec2.prototype.min = function(x, y) { return vec2.min(this, this, x, y); };
+vec2.prototype.greater = function(b) { return vec2.greater(this, this, b); };
+vec2.prototype.lesser = function(b) { return vec2.lesser(this, this, b); };
+vec2.prototype.clip = function(lo, hi) { return vec2.clip(this, this, lo, hi); };
+vec2.prototype.mix = function(b, t) { return vec2.mix(this, this, b, t); };
+vec2.prototype.wrap = function(x, y) { return vec2.wrap(this, this, x, y); };
+vec2.prototype.relativewrap = function(x, y) { return vec2.relativewrap(this, this, x, y); };
+vec2.prototype.normalize = function() { return vec2.normalize(this, this); };
+vec2.prototype.negate = function() { return vec2.negate(this, this); };
+vec2.prototype.floor = function() { return vec2.floor(this, this); };
+vec2.prototype.ceil = function() { return vec2.ceil(this, this); };
+vec2.prototype.round = function() { return vec2.round(this, this); };
+vec2.prototype.limit = function(m) { return vec2.limit(this, this, m); };
+vec2.prototype.rotate = function(a) { return vec2.rotate(this, this, a); };
+
+// aliases:
+vec2.prototype.mag = vec2.prototype.len;
+vec2.prototype.magnitude = vec2.prototype.len;
+vec2.prototype.setlen = vec2.prototype.setmag;
+vec2.prototype.setlength = vec2.prototype.setmag;
+vec2.prototype.setmagnitude = vec2.prototype.setmag;
+vec2.prototype.dist = vec2.prototype.distance;
+vec2.prototype.copy = vec2.prototype.clone;
+vec2.prototype.translate = vec2.prototype.add;
+vec2.prototype.scale = vec2.prototype.mul;
+vec2.prototype.subtract = vec2.prototype.sub;
+vec2.prototype.multiply = vec2.prototype.mul;
+vec2.prototype.divide = vec2.prototype.div;
+vec2.prototype.clamp = vec2.prototype.clamp;
+vec2.prototype.lerp = vec2.prototype.mix;
+
+// utility constructors:
+let make_vec2_fun = function (f) {	// hack because of JS scope annoyance
+	return function() { return f.apply(new vec2(), arguments); };
+};
+let constructor_names = [ "random", "fromAngle", "fromPolar" ];
+for (var i=0; i<constructor_names.length; i++) {
+	var k = constructor_names[i];
+	var f = vec2.prototype[k];
+	vec2[constructor_names[i]] = make_vec2_fun(f);
+}
+  
+////////////////////////////////////////////////////////////////////
+// Draw2D wraps the canvas drawing API
+////////////////////////////////////////////////////////////////////
+ 
+draw2D = {
+  
+  push() {
+    ctx.save();
+    return this;
+  },
+  
+  pop() {
+    ctx.restore();
+    return this;
+  },
+  
+  scale(...args) {
+    let x = 1, y = 1;
+    let a = args[0];
+    if (typeof a == "object") {
+      x = a[0] != undefined ? a[0] : 1;
+      y = a[1] != undefined ? a[1] : 1;
+    } else if (typeof a == "number") {
+      x = a;
+      y = args[1] != undefined ? args[1] : x;
+    }
+    ctx.scale(x, y);
+    return this;
+  },
+  
+  rotate(...args) {
+    let a = args[0];
+    if (typeof a == "object") {
+      ctx.rotate(vec2.angle(a));
+    } else if (typeof a == "number") {
+      ctx.rotate(a);
+    }
+    return this;
+  },
+  
+  translate(...args) {
+    let x = 0, y = 0;
+    let a = args[0];
+    if (typeof a == "object") {
+      x = a[0] || 0;
+      y = a[1] || 0;
+    } else if (typeof a == "number") {
+      x = a;
+      y = args[1] || 0;
+    }
+    ctx.translate(x, y);
+    return this;
+  },
+  
+  // rect([x, y], dx, dy)
+  // rect([x, y], d)
+  // rect([x, y])
+  // rect(dx, dy)
+  // rect(d)
+  // rect()
+  rect(...args) {
+    let x = 0, y = 0, w = 1, h = 1;
+    let a = args[0];
+    if (typeof a == "object") {
+      w = args[1] != undefined ? args[1] : 1;
+      h = args[2] != undefined ? args[2] : w;
+      x = a[0] || 0;
+      y = a[1] || 0;
+    } else if (typeof a == "number") {
+      w = a;
+      h = args[1] != undefined ? args[1] : w;
+    }
+    ctx.fillRect(x-w*0.5, y-h*0.5, w, h);
+    return this;
+  },
+  
+  circle(...args) {
+    let x = 0, y = 0, w = 1, h = 1;
+    let a = args[0];
+    if (typeof a == "object") {
+      w = args[1] != undefined ? args[1] : 1;
+      h = args[2] != undefined ? args[2] : w;
+      x = a[0] || 0;
+      y = a[1] || 0;
+    } else if (typeof a == "number") {
+      w = a;
+      h = args[1] != undefined ? args[1] : w;
+    }
+    ctx.beginPath();
+    ctx.ellipse(x, y, w*0.5, h*0.5, 0, -Math.PI, Math.PI);
+    ctx.fill();
+    return this;
+  },
+  
+  triangle(...args) {
+    let x = 0, y = 0, w = 1, h = 1;
+    let a = args[0];
+    if (typeof a == "object") {
+      w = args[1] != undefined ? args[1] : 1;
+      h = args[2] != undefined ? args[2] : w;
+      x = a[0] || 0;
+      y = a[1] || 0;
+    } else if (typeof a == "number") {
+      w = a;
+      h = args[1] != undefined ? args[1] : w;
+    }
+    let w2 = w*0.5;
+    let h2 = h*0.5;
+    ctx.beginPath();
+    ctx.moveTo(x-w2, y-h2);
+    ctx.lineTo(x+w2, y);
+    ctx.lineTo(x-w2, y+h2);
+    ctx.fill();
+    return this;
+  },
+  
+  // line(p0, p1, thickness)
+  // line(p0, p1)
+  // line(p0, thickness)
+  // line(p0)
+  // line()
+  line(...args) {
+    let thickness = args[args.length-1];
+    if (typeof thickness != "number") {
+      thickness = 1;
+    }
+    let p1 = args[1];
+    if (typeof p1 != "object") {
+      p1 = [0, 0];
+    }
+    let p0 = args[0];
+    if (typeof p0 != "object") {
+      p0 = [0, 0];
+    }
+    ctx.lineWidth = thickness/ctxtransform[0];
+    ctx.beginPath();
+    ctx.moveTo(p0[0], p0[1]);
+    ctx.lineTo(p1[0], p1[1]);
+    ctx.stroke();
+  },
+  
+  // color("red") 
+  // color("#ff3399")
+  // color(1, 1, 1, 0.5) // rgb+alpha
+  // color(1, 1, 1) // rgb
+  // color(1, 0.5) // greyscale+alpha
+  // color(0.5);  // greyscale
+  // color([1, 0, 1])
+  color(...args) {
+    let color = args[0];
+    if (typeof color == "string") {
+      ctx.fillStyle = color;
+      ctx.strokeStyle = color;
+    } else if (typeof color == "number") {
+      let r = color*255;
+      if (args.length >= 4) {
+        color = `rgba(${r}, ${args[1]*255}, ${args[2]*255}, ${args[3]})`;
+      } else if (args.length == 3) {
+        color = `rgb(${r}, ${args[1]*255}, ${args[2]*255})`;
+      } else if (args.length == 2) {
+        color = `rgba(${r}, ${r}, ${r}, ${args[1]})`;
+      } else {
+        color = `rgb(${r}, ${r}, ${r})`;
+      }
+      ctx.fillStyle = color;
+      ctx.strokeStyle = color;
+    } else if (typeof color == "object") {
+      draw2D.color.apply(this, color);
+    } else {
+      ctx.fillStyle = "white";
+      ctx.strokeStyle = "white";
+    }
+  },
+  
+  // hsl(0, 0.5, 0.5, 0.5) // hue, saturation, luma, alpha
+  // hsl(0, 0.5, 0.5) // hue, saturation, luma
+  // hsl(0, 0.5) // hue, alpha
+  // hsl(0.5);  // hue
+  hsl(...args) {
+    let color = args[0];
+    if (typeof color == "number") {
+      let c = color*360;
+      if (args.length >= 4) {
+        color = `hsla(${c}, ${args[1]*100}%, ${args[2]*100}%, ${args[3]})`;
+      } else if (args.length == 3) {
+        color = `hsl(${c}, ${args[1]*100}%, ${args[2]*100}%)`;
+      } else if (args.length == 2) {
+        color = `hsla(${c}, 50%, 50%, ${args[1]})`;
+      } else {
+        color = `hsl(${c}, 50%, 50%)`;
+      }
+      ctx.fillStyle = color;
+      ctx.strokeStyle = color;
+    } else if (typeof color == "object") {
+      draw2D.hsl.apply(this, color);
+    } else {
+      ctx.fillStyle = "white";
+      ctx.strokeStyle = "white";
+    }
+  },
+  
+};
+  
 
   
 ////////////////////////////////////////////////////////////////////
