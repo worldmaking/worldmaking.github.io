@@ -1351,6 +1351,22 @@ draw2D = {
     ctx.moveTo(p0[0], p0[1]);
     ctx.lineTo(p1[0], p1[1]);
     ctx.stroke();
+	},
+  
+  // line(p0, p1, thickness)
+  // line(p0, p1)
+  // line(p0, thickness)
+  // line(p0)
+  // line()
+  lines(list, thickness=1) {
+		ctx.lineWidth = thickness/ctxtransform[0];
+		if (list.length < 2) return;
+		ctx.beginPath();
+		ctx.moveTo(list[0][0], list[0][1]);
+		for (let i=1; i<list.length; i++) {
+    	ctx.lineTo(list[i][0], list[i][1]);
+		}
+    ctx.stroke();
   },
   
   // color("red") 
