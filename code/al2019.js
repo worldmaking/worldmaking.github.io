@@ -1362,9 +1362,9 @@ draw2D = {
 		ctx.lineWidth = thickness/ctxtransform[0];
 		if (list.length < 2) return;
 		ctx.beginPath();
-		ctx.moveTo(list[0][0], list[0][1]);
-		for (let i=1; i<list.length; i++) {
-    	ctx.lineTo(list[i][0], list[i][1]);
+		for (let i=0; i<list.length; i+=2) {
+			ctx.moveTo(list[i][0], list[i][1]);
+    	ctx.lineTo(list[i+1][0], list[i+1][1]);
 		}
     ctx.stroke();
   },
