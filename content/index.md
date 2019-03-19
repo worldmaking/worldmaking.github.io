@@ -55,6 +55,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
+- Haru (Hyunkyung) Ji, Graham Wakefield. Conservation of Shadows: Site-Specific Shared Physicality. Proceedings of ISEA 2019 (forthcoming).
 - Haru (Hyunkyung) Ji, Graham Wakefield. ["Inhabitat: an Imaginary Ecosystem in a Children’s Science Museum."](https://www.leonardo.info/journal-issue/leonardo/51/4) Leonardo Vol. 51, No. 4, pp. 343–348, 2018. (Leonardo 50th anniversary issue, SIGGRAPH 2018 special issue)
 - Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In [Worldmaking as Techné](http://worldmakingastechne.net/): Exploring Worlds of Participatory Art, Architecture, and Music, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2018.
 - Charles Roberts, Graham Wakefield. "Tensions & Techniques in Live Coding Performance." In The Oxford Handbook of Algorithmic Music, edited by Roger Dean, Alex McLean. Oxford University Press, February 2018.
@@ -76,6 +77,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
+- Conservation of Shadows: Underworld. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. "Feral Hospitality", Sidewalk Labs, Toronto. 2018-03-02.
 - Infranet: Gwangju. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Gwangju Media Art Festival 2018 "Algorithm Society: Birth of The Machine-God", Asia Culture Center (ACC), Gwangju, Korea. 2018-11-28 - 2018-12-7.
 - Insuperposition. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Daejeon Bienalle 2018 "Bio", Daejeon Museum of Art, Daejeon, Korea. 2018-07-16 - 2017-10-24. 
 - Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Requiem for Hybrid Life, Seoul Museum of Art (Chang-go), Seoul, Korea. 2017-10-17 - 2017-10-23 (Curated, International).
@@ -119,11 +121,12 @@ The International Conference on New Interfaces for Musical Expression, Aalborg U
 ## Students
 
 - Sarah Vollmer, MSc Digital Media.
-- Michael Palumbo, PhD Theatre & Performance Studies.
 - David Han, PhD Cinema and Media Studies.
+- Michael Palumbo, PhD Theatre & Performance Studies.
+- Michael Trommer, PhD Cinema and Media Studies.
 - Alison Humphrey, PhD Cinema and Media Studies.
-- Alia Miroshnichenko, PhD Communications and Culture.
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
+- Alia Miroshnichenko, PhD Communications and Culture.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
 
 - Nicole Skrypuch, Digital Media program.
@@ -141,7 +144,6 @@ The International Conference on New Interfaces for Musical Expression, Aalborg U
 - Lalaine Ulit-Destajo, Digital Media program, graduated 2016.
 - Youhan Guan, Digital Media program, graduated 2016.
 - Mengmei Zhou, Digital Media program, graduated 2016.
-
 
 - Seunghun Kim, PhD Culture Technology (KAIST), graduated 2015.
 - Sunga Jang, MS Culture Technology (KAIST), graduated 2015.
