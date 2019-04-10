@@ -187,14 +187,26 @@ onresize = function() {
 	overlay.style["pointer-events"] = "none";
 	overlay.style["font-family"] = "monospace";
 	overlay.style["white-space"] = "pre-wrap";
+  
+  let w, x, y
     
-  // set the transform such that 0..1 spans the smaller dimension:
-  let w = Math.min(canvas.width, canvas.height);
-  let x = Math.max(0, (canvas.width-w)/2);
-  let y = Math.max(0, (canvas.height-w)/2);
-  ctxtransform = [w, 0, 
-                  0, w, 
-                  x, y];
+  if (draw2D.isFillWindow) {
+    // set the transform such that 0..1 spans the smaller dimension:
+    w = Math.max(canvas.width, canvas.height);
+    x = Math.min(0, (canvas.width-w)/2);
+    y = Math.min(0, (canvas.height-w)/2);
+    ctxtransform = [w, 0, 
+                    0, w, 
+                    x, y];
+  } else {
+    // set the transform such that 0..1 spans the smaller dimension:
+    w = Math.min(canvas.width, canvas.height);
+    x = Math.max(0, (canvas.width-w)/2);
+    y = Math.max(0, (canvas.height-w)/2);
+    ctxtransform = [w, 0, 
+                    0, w, 
+                    x, y];
+  }
   
   ctx.resetTransform();
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
@@ -1217,6 +1229,13 @@ for (var i=0; i<constructor_names.length; i++) {
 ////////////////////////////////////////////////////////////////////
  
 draw2D = {
+  
+  isFillWindow: false,
+  
+  fitToWindow(b) {
+    this.isFillWindow = !b;
+    onresize();
+  },
   
   push() {
     ctx.save();

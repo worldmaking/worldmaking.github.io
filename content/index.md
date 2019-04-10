@@ -118,7 +118,9 @@ The International Conference on New Interfaces for Musical Expression, Aalborg U
 - Becoming There: Immersed in Computation (Panel). Exploring the Frontiers of Science & Technology, York University, Toronto, Canada, 2015-01-28
 
 
-## Students
+## Students 
+
+Graduate students conducting research/art in the lab
 
 - Sarah Vollmer, MSc Digital Media.
 - David Han, PhD Cinema and Media Studies.
@@ -128,6 +130,9 @@ The International Conference on New Interfaces for Musical Expression, Aalborg U
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
+- Robert Appleton, 
+
+Undergraduate students conducting research/art in the lab
 
 - Nicole Skrypuch, Digital Media program.
 - Filiz Eryilmaz, Digital Media program.
