@@ -77,7 +77,10 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
-- Conservation of Shadows: Underworld. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. "Feral Hospitality", Sidewalk Labs, Toronto. 2018-03-02.
+- Time of Doubles. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference + Open Doors Toronto. Toronto Media Arts Centre. 2019-05-17 - 2019-05-26.
+- Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference. Toronto Media Arts Centre. 2019-05-17 - 2019-05-18.
+- Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. CRAM Research Festival, York University, Toronto. 2019-04-05.
+- Conservation of Shadows: Underworld. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. "Feral Hospitality", Sidewalk Labs, Toronto. 2019-03-02.
 - Infranet: Gwangju. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Gwangju Media Art Festival 2018 "Algorithm Society: Birth of The Machine-God", Asia Culture Center (ACC), Gwangju, Korea. 2018-11-28 - 2018-12-7.
 - Insuperposition. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield.  Daejeon Bienalle 2018 "Bio", Daejeon Museum of Art, Daejeon, Korea. 2018-07-16 - 2017-10-24. 
 - Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Requiem for Hybrid Life, Seoul Museum of Art (Chang-go), Seoul, Korea. 2017-10-17 - 2017-10-23 (Curated, International).
@@ -98,8 +101,11 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 *(Excluding conference presentations with publications)*
 
-- Live Code a Language as Instrument (Workshop). 
-The International Conference on New Interfaces for Musical Expression, Aalborg University Copenhagen, Denmark, 2017-06-15
+- Artificial Nature (Artist Talk). [Spiral Film Philosophy conference 2019, "It's Alive! Film/Form/Life"](https://www.facebook.com/spiralfilmphilosophy/). Toronto Media Arts Centre, Canada. 2019-05-17. 
+- Live Coding Max with Gibberwocky (Workshop). Expo '74 2019, MASS MOCA, North Adams, USA. 2019-04-28.
+- Modular Synthesis in Virtual Reality (Demonstration). Expo '74 2019, MASS MOCA, North Adams, USA. 2019-04-26.
+- Artificial Nature (Artist Talk). 307: Feral Hospitality, Sidewalk Labs, Toronto, Canada. 2019-04-02. 
+- Live Code a Language as Instrument (Workshop). The International Conference on New Interfaces for Musical Expression, Aalborg University Copenhagen, Denmark, 2017-06-15
 - Design a Mini Live Coding Language (Workshop). International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
 - Artificial Natures (Artist talk). Weird Reality: Head-Mounted Art && Code, Carnegie Mellon University, Pittsburgh, USA, 2016-10-08
 - Interactive Art: Animating Public Space (Panel talk). Media Architecture Summit 2016, oTIFF Bell Lightbox, Toronto, Canada, 2016-09-30
@@ -130,7 +136,7 @@ Graduate students conducting research/art in the lab
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
-- Robert Appleton, 
+- Robert Appleton, PhD, Music.
 
 Undergraduate students conducting research/art in the lab
 
