@@ -2,7 +2,7 @@
 
 The **Alice lab for Computational Worldmaking** develops transferable knowledge and creative coding technology as well as intensifying computationally literate art practice in the construction of responsive artificial worlds experienced through rapidly emerging mixed/hybrid reality technologies including both Virtual Reality (VR) and Augmented Reality (AR). Inspired by the creativity of nature, its research-creation program leverages strong simulation and the self-modifying capacity of computational media to create artificial worlds whose rules can be rewritten while participants interact within them, pioneering heightened levels of human-machine interaction and intensified aesthetic experience through meaningful engagement using the whole body. Cutting across work in generative art, computer graphics, human-computer interaction, artificial life, complex systems and compiler technology, this research program reinforces influential work at York in augmented reality, computer vision, stereoscopic cinema and ubiquitous screens, and results in transferable research, open-source tools, and novel creative works. 
 
-It is directed by [Graham Wakefield](http://www.grahamwakefield.net), Assistant Professor appointed to the [Department of Computational Arts](http://digital-media.ampd.yorku.ca/profile/graham-wakefield/) and the [Department of Visual Art and Art History](http://vaah.ampd.yorku.ca) in the [School of the Arts, Media, Performance, and Design (AMPD)](http://ampd.yorku.ca), and a [Canada Research Chair](http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx) (Tier II) in interactive information visualization at York University, Toronto, Canada. Wakefield's art installations have been exhibited at leading international museums and peer-reviewed events in areas of digital media, computation and culture, including ZKM Karlsruhe, La Gaite Lyrique Paris, and SIGGRAPH, and have attained national and international awards including VIDA, the premier art & artificial life competition (2014). He was previously an integral researcher at the [AlloSphere](http://www.allosphere.ucsb.edu), a unique 3-storey spherical multi-user virtual reality instrument, UC Santa Barbara 2007-2012, creating multi-screen artworks and scientific visualizations, and software infrastructure for worldmaking that not only forms the foundation for most projects in the AlloSphere today, but is also widely used beyond including by internationally-renowned artists. He is also co-author of a framework for creative coding ([Gen for Max/MSP, 2011](https://cycling74.com/products/max)) which now has tens of thousands of users, and is used by industrial design labs and incorporated into courses at several major universities. At York he is also a member of [The Centre for Vision Research](http://www.cvr.yorku.ca) and [Sensorium](http://sensorium.info.yorku.ca) organized research units. The computational worldmaking lab continues the research-creation activity from Dr. Wakefield's former position at the [Graduate School of Culture Technology](http://ct.kaist.ac.kr), Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea.
+It is directed by [Graham Wakefield](http://www.grahamwakefield.net), Associate Professor appointed to the [Department of Computational Arts](http://digital-media.ampd.yorku.ca/profile/graham-wakefield/) and the [Department of Visual Art and Art History](http://vaah.ampd.yorku.ca) in the [School of the Arts, Media, Performance, and Design (AMPD)](http://ampd.yorku.ca), and a [Canada Research Chair](http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx) (Tier II) in interactive information visualization at York University, Toronto, Canada. Wakefield's art installations have been exhibited at leading international museums and peer-reviewed events in areas of digital media, computation and culture, including ZKM Karlsruhe, La Gaite Lyrique Paris, and SIGGRAPH, and have attained national and international awards including VIDA, the premier art & artificial life competition (2014). He was previously an integral researcher at the [AlloSphere](http://www.allosphere.ucsb.edu), a unique 3-stoqrey spherical multi-user virtual reality instrument, UC Santa Barbara 2007-2012, creating multi-screen artworks and scientific visualizations, and software infrastructure for worldmaking that not only forms the foundation for most projects in the AlloSphere today, but is also widely used beyond including by internationally-renowned artists. He is also co-author of a framework for creative coding ([Gen for Max/MSP, 2011](https://cycling74.com/products/max)) which now has tens of thousands of users, and is used by industrial design labs and incorporated into courses at several major universities. At York he is also a member of [The Centre for Vision Research](http://www.cvr.yorku.ca) and [Sensorium](http://sensorium.info.yorku.ca) organized research units. The computational worldmaking lab continues the research-creation activity from Dr. Wakefield's former position at the [Graduate School of Culture Technology](http://ct.kaist.ac.kr), Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea.
 
 ## Support
 
@@ -55,7 +55,8 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
-- Haru (Hyunkyung) Ji, Graham Wakefield. Conservation of Shadows: Site-Specific Shared Physicality. Proceedings of ISEA 2019 (forthcoming).
+- Wakefield, Graham, and Haru Hyunkyung Ji. "Infranet: A Geospatial Data-Driven Neuro-Evolutionary Artwork." In 2019 IEEE VIS Arts Program (VISAP), pp. 1-7. IEEE, 2019.
+- Haru (Hyunkyung) Ji, Graham Wakefield. Conservation of Shadows: Site-Specific Shared Physicality. Proceedings of ISEA 2019.
 - Haru (Hyunkyung) Ji, Graham Wakefield. ["Inhabitat: an Imaginary Ecosystem in a Children’s Science Museum."](https://www.leonardo.info/journal-issue/leonardo/51/4) Leonardo Vol. 51, No. 4, pp. 343–348, 2018. (Leonardo 50th anniversary issue, SIGGRAPH 2018 special issue)
 - Graham Wakefield. "Open Worlds: Bergson And Computational Ontology." In [Worldmaking as Techné](http://worldmakingastechne.net/): Exploring Worlds of Participatory Art, Architecture, and Music, edited by Alberto de Campo, Mark-David Hosale, Sana Murrani. Riverside Architectural Press, 2018.
 - Charles Roberts, Graham Wakefield. "Tensions & Techniques in Live Coding Performance." In The Oxford Handbook of Algorithmic Music, edited by Roger Dean, Alex McLean. Oxford University Press, February 2018.
@@ -77,6 +78,8 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Exhibitions
 
+- Infanet:Vancouver. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. IEEE VIS Arts Exhibition, Vancouver Convention Centre, Vancouver, Canada. 2019-10-22 – 2019-10-25.
+- Infranet:NYC. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Techno-imagination: Living Data. Sylvia Wald & Po Kim Art Gallery, Manhattan, New York, USA. 2019-8-1 – 2019-12-06.
 - Time of Doubles. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference + Open Doors Toronto. Toronto Media Arts Centre. 2019-05-17 - 2019-05-26.
 - Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference. Toronto Media Arts Centre. 2019-05-17 - 2019-05-18.
 - Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. CRAM Research Festival, York University, Toronto. 2019-04-05.
@@ -123,12 +126,13 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 - Becoming There: Immersed in Computation (Artist talk). Sensorium Lecture Series, York University, Toronto, Canada, 2015-02-24
 - Becoming There: Immersed in Computation (Panel). Exploring the Frontiers of Science & Technology, York University, Toronto, Canada, 2015-01-28
 
-
 ## Students 
 
 Graduate students conducting research/art in the lab
 
-- Sarah Vollmer, MSc Digital Media.
+- Racelar Ho, PhD Digital Media
+- Marcus Gordon, PhD Digital Media
+- Sarah Vollmer, MSc/PhD Digital Media.
 - David Han, PhD Cinema and Media Studies.
 - Michael Palumbo, PhD Theatre & Performance Studies.
 - Michael Trommer, PhD Cinema and Media Studies.
@@ -137,28 +141,25 @@ Graduate students conducting research/art in the lab
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
 - Robert Appleton, PhD, Music.
+- Rory Hoy, MA, Digital Media
+- Andrew Sidsworth, MA igital Media
 
 Undergraduate students conducting research/art in the lab
 
+- Kimberly Davis, Digital Media program.
 - Nicole Skrypuch, Digital Media program.
 - Filiz Eryilmaz, Digital Media program.
 - Amir Bahador Rostami, Digital Media program.
 - Adiola Palmer, Digital Media program.
 - Alex Zonta, Digital Media program.
-- Andrew Sidsworth, Digital Media program.
 - Nicholas Abbruzzese, Digital Media program.
 - Zachary Shron, Digital Media program.
 - Nick Erkelenz, Digital Media program.
 - Sam Bebenek, Digital Media program.
-- Rory Hoy, Digital Media program.
 - Dale Rosen, Digital Media program.
 - Lalaine Ulit-Destajo, Digital Media program, graduated 2016.
 - Youhan Guan, Digital Media program, graduated 2016.
 - Mengmei Zhou, Digital Media program, graduated 2016.
-
-- Seunghun Kim, PhD Culture Technology (KAIST), graduated 2015.
-- Sunga Jang, MS Culture Technology (KAIST), graduated 2015.
-- Sojung Bahng, MS Culture Technology (KAIST), graduated 2015.
 
 ### Location
 
