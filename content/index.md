@@ -132,6 +132,7 @@ Graduate students conducting research/art in the lab
 
 - Racelar Ho, PhD Digital Media
 - Marcus Gordon, PhD Digital Media
+- Hrysovalanti Maheras, MA Digital Media
 - Sarah Vollmer, MSc/PhD Digital Media.
 - David Han, PhD Cinema and Media Studies.
 - Michael Palumbo, PhD Theatre & Performance Studies.
@@ -142,7 +143,7 @@ Graduate students conducting research/art in the lab
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
 - Robert Appleton, PhD, Music.
 - Rory Hoy, MA, Digital Media
-- Andrew Sidsworth, MA igital Media
+- Andrew Sidsworth, MA Digital Media
 
 Undergraduate students conducting research/art in the lab
 
