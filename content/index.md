@@ -131,20 +131,21 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 Graduate students conducting research/art in the lab
 
+- David Han, PhD Cinema and Media Studies.
+- Sarah Vollmer, MSc/PhD Digital Media.
 - Racelar Ho, PhD Digital Media
+- Michael Palumbo, PhD Theatre & Performance Studies.
 - Marcus Gordon, PhD Digital Media
 - Hrysovalanti Maheras, MA Digital Media
-- Sarah Vollmer, MSc/PhD Digital Media.
-- David Han, PhD Cinema and Media Studies.
-- Michael Palumbo, PhD Theatre & Performance Studies.
+- Janica Olpindo, MA Digital Media
+- Rory Hoy, MA, Digital Media
+- Andrew Sidsworth, MA Digital Media
 - Michael Trommer, PhD Cinema and Media Studies.
+- Robert Appleton, PhD, Music.
 - Alison Humphrey, PhD Cinema and Media Studies.
 - Reşat Fuat Çam. PhD Cinema and Media Studies.
 - Alia Miroshnichenko, PhD Communications and Culture.
 - Slavica Ceperkovic, PhD Cinema and Media Studies.
-- Robert Appleton, PhD, Music.
-- Rory Hoy, MA, Digital Media
-- Andrew Sidsworth, MA Digital Media
 
 Undergraduate students conducting research/art in the lab
 
@@ -154,7 +155,7 @@ Undergraduate students conducting research/art in the lab
 - Amir Bahador Rostami, Digital Media program.
 - Adiola Palmer, Digital Media program.
 - Alex Zonta, Digital Media program.
-- Nicholas Abbruzzese, Digital Media program.
+- Nicholas Abbruzzese, Digital Media program, graduated 2019.
 - Zachary Shron, Digital Media program.
 - Nick Erkelenz, Digital Media program.
 - Sam Bebenek, Digital Media program.
