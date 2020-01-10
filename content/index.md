@@ -55,6 +55,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
+- Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583. Taylor and Francis, 10 Jan 2020.
 - Wakefield, Graham, and Haru Hyunkyung Ji. "Infranet: A Geospatial Data-Driven Neuro-Evolutionary Artwork." In 2019 IEEE VIS Arts Program (VISAP), pp. 1-7. IEEE, 2019.
 - Haru (Hyunkyung) Ji, Graham Wakefield. Conservation of Shadows: Site-Specific Shared Physicality. Proceedings of ISEA 2019.
 - Haru (Hyunkyung) Ji, Graham Wakefield. ["Inhabitat: an Imaginary Ecosystem in a Children’s Science Museum."](https://www.leonardo.info/journal-issue/leonardo/51/4) Leonardo Vol. 51, No. 4, pp. 343–348, 2018. (Leonardo 50th anniversary issue, SIGGRAPH 2018 special issue)
