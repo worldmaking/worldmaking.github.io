@@ -9,4 +9,4 @@ For this workshop, the instructors will give a short presentation to set the sce
 The workshop will require access to VR-ready computers and desktop-based VR headsets (HTC Vive preferred), with a recent version of Firefox and Max 8 installed. The instructors also request access to a projector and loudspeakers for presentation, and to share the VR perspective among other participants.  
 
 
-<iframe width="960" height="272" src="https://vimeo.com/user108087006/review/388589046/9ca4c6043e" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="182" src="https://player.vimeo.com/video/388589046" frameborder="0" allow="accelerometer; autoplay; fullscreen; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
