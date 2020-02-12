@@ -55,6 +55,7 @@ Sound is an emotively significant yet relatively underexplored as a spatial, cyb
 
 ## Publications
 
+- Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
 - Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583). Taylor and Francis, 10 Jan 2020.
 - Wakefield, Graham, and Haru Hyunkyung Ji. ["Infranet: A Geospatial Data-Driven Neuro-Evolutionary Artwork."](https://ieeexplore.ieee.org/document/8900903) In 2019 IEEE VIS Arts Program (VISAP), pp. 1-7. IEEE, 2019.
 - Haru (Hyunkyung) Ji, Graham Wakefield. Conservation of Shadows: Site-Specific Shared Physicality. Proceedings of ISEA 2019.
