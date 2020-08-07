@@ -1,16 +1,16 @@
 # worldmaking.github.io
 [Public website](http://worldmaking.github.io) for the Computational Worldmaking Lab at York.
 
-##Content Structure
+#Content Structure
 Here's the content index for the website.
 
-##Website Construction
+#Website Construction
 [Content Diagram](https://miro.com/app/board/o9J_knpDM6E=/) for the website with design details.
 
-##Media Materials List
+#Media Materials List
 Here's the section for the media materials we plan to use.
 
-###Notes
+#Notes
 Here's the section for notes info to the website.
 > - abc
 > - abc
