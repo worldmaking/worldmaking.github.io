@@ -1,1 +1,0 @@
-./make.js && git commit -a -m 'update' && git pull && git push
