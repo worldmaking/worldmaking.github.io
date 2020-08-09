@@ -61,16 +61,16 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-icon-114x114.png">
 </head>
 
-<body class="animsition js-preloader over-hide">
+<body class="over-hide">
 	
 	<!-- Page preloader wrap -->
-	
+	<div class="animsition js-preloader">
 
     <div class="page-wrapper">
 		
         <!-- HEADER // Nav and Logo -->
         <header id="header">
-            <div class="header header-1 d-none d-lg-block js-header-1">
+            <div class="cd-header header-1 d-none d-lg-block js-header-1">
                 <div class="header__bar">
                     <div class="wrap wrap--w1790">
                         <div class="container-fluid">
@@ -394,12 +394,31 @@
                     </div>
                 </nav>
             </div>
+		</div>
         </header>
         <!-- END HEADER-->
-
+		
+		
+   <!-- MAIN-->
+        <main id="main">
+			
+            <!-- PAGE LINE-->
+            <div class="page-line">
+                <div class="container">
+                    <div class="page-line__inner">
+                        <div class="page-col"></div>
+                        <div class="page-col"></div>
+                        <div class="page-col"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- END PAGE LINE-->
+			
+			
 <!-- Primary Page Layout
 		================================================== -->
-		
+		<section>
+			
 		<div class="section full-height over-hide swiper-container z-bigger" id="hero-slider">
 			<ul class="swiper-wrapper case-study-wrapper">
 				<li class="swiper-slide full-height case-study-name">
@@ -454,18 +473,18 @@
 		<ul class="case-study-images">
 			<li>
 				<div class="img-hero-background no-blur" style="background-image: url('images/5.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">The Battle</h2>
+				<h2 class="fullscreen-image no-blur">Project 01</h2>
 				<div class="hero-number">01</div> 
 				<div class="hero-number-fixed">08</div> 
 			</li>
 			<li>
 				<div class="img-hero-background no-blur" style="background-image: url('images/1.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Dark Dream</h2>
+				<h2 class="fullscreen-image no-blur">Project 02</h2>
 				<div class="hero-number">02</div> 
 			</li>
 			<li>
 				<div class="img-hero-background no-blur" style="background-image: url('images/2.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">L'Etoile Feb</h2>
+				<h2 class="fullscreen-image no-blur">Project 03</h2>
 				<div class="hero-number">03</div> 
 			</li>
 			<li>
@@ -497,20 +516,7 @@
 		
 
 		
-        <!-- MAIN-->
-        <main id="main">
-			
-            <!-- PAGE LINE-->
-            <div class="page-line">
-                <div class="container">
-                    <div class="page-line__inner">
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                        <div class="page-col"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- END PAGE LINE-->
+     
 
 			
             <!-- Primary Page Layout
@@ -1014,14 +1020,14 @@
                         <div class="footer-col">
                             <div class="widget m-b-25">
                                 <a href="#">
-                                    <img src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/images/icon/logo-white.png" alt="Tatee" />
+                                    <img src="images/icon/logo-white.png" alt="AliceLab" />
                                 </a>
                             </div>
                             <div class="widget widget-address">
                                 <ul>
-                                    <li>Address : 991 White St . Dawsonville, GA 30534 , New York</li>
-                                    <li>Phone number : + (898) 784-7217</li>
-                                    <li>Email : Tatee.architecture@gmail.com</li>
+                                    <li>Address : Room 309, Goldfarb Center for Fine Arts, School of the Arts, Media, Performance, and Design, York University,
+86 Fine Arts Rd, Toronto, Canada</li>
+                                    <li>Github : <a href="https://github.com/worldmaking">Visit AliceLab</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1051,27 +1057,7 @@
                                 <ul class="list-social list-social-2">
                                     <li class="list-social__item">
                                         <a class="ic-fb" href="#">
-                                            <i class="zmdi zmdi-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-insta" href="#">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-pinterest" href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-google" href="#">
-                                            <i class="zmdi zmdi-google"></i>
+                                            <i class="zmdi zmdi-github"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1082,7 +1068,7 @@
                         <div class="footer-col">
                             <div class="widget widget_text">
                                 <h4 class="widget-title">copyright</h4>
-                                <p>© 2018 TATEE . Designed by Authemes</p>
+                                <p>© 2020 Worldmaking.io . Designed by AliceLab</p>
                             </div>
                         </div>
                     </div>
@@ -1093,38 +1079,38 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS-->
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/animsition/animsition.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/slick/slick.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/wow/wow.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/jquery.counterup/jquery.counterup.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/matchHeight/jquery.matchHeight-min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/select2/select2.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/sweetalert/sweetalert.min.js"></script>
-    <script src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/noUiSlider/nouislider.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/matchHeight/jquery.matchHeight-min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="vendor/noUiSlider/nouislider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
     <!--
     | (Load Extensions only on Local File Systems !
     | The following part can be removed on Server for On Demand Loading)
     -->
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
     <!-- Config Revolution Slider-->
-    <script type="text/javascript" src="../../01_design-materials/tatee-architecture-building-html5-template/Tatee/HTML5 Template/js/config-revolution.min.js"></script>
+    <script type="text/javascript" src="js/config-revolution.min.js"></script>
 
         <!-- Page cursor
 		================================================== -->
