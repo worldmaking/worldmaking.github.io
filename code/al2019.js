@@ -1107,9 +1107,14 @@ vec2.limit = function(out, v, m) {
 };
 
 vec2.rotate = function(out, v, angle) {
-  
-	var c = Math.cos(angle);
-	var s = Math.sin(angle);
+	let c, s;
+	if (typeof angle == "object") {
+		c = angle[0]
+		s = angle[1]
+	} else {
+  		c = Math.cos(angle);
+		s = Math.sin(angle);
+	}
 	var x = v[0], y = v[1];
 	out[0] = x * c - y * s;
 	out[1] = y * c + x * s;
