@@ -1,84 +1,115 @@
 #!/usr/bin/env node
 
-///// CONFIG /////
+/*
+	Iterates every file in current folder
+	Every markdown file becomes an HTML file
+	markdown files can optionally start with a meta object (in HTML comments) containing a JSON object:
 
-var contentpath = "content/";
-var buildpath = "./";
-
-///// GLOBALS /////
-
-var fs = require('fs');
-var path = require('path');
-var peg = require('pegjs');
-var markdown = require ("markdown").markdown;
-marked = require("marked");
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: false,
-  pedantic: false,
-  sanitize: false,
-  smartLists: true,
-  smartypants: false
-});
-
-var markup = peg.buildParser(fs.readFileSync("markup.pegjs", "utf8"));
-
-var convert = function(input) {
-	var chunks = markup.parse(input);
-	for (i in chunks) {
-		var s = chunks[i];
-		// ignore HTML chunks:
-		if (s.charAt(0) != "<") {
-			chunks[i] = marked(chunks[i]);
-		} 
+	<!--
+	{
 		
 	}
-	return chunks.join("\n");
+	-->
+
+	If not given, the defaults will be given by const meta_default below.
+*/
+
+const fs = require("fs"),
+	path = require("path")
+
+const JSON5 = require("json5")
+const marked = require("marked")
+const hljs   = require('highlight.js')
+const template = require('es6-dynamic-template')
+
+const meta_default = {
+	author: "Graham Wakefield",
+	template: "content/template.html",
+	title: "",
+	description: "Alice Lab for Computational Worldmaking, York University, Canada",
 }
 
-var Handlebars = require ("Handlebars");
+function generate(file) {
+	let src = fs.readFileSync(path.format(file), "utf8");
 
-var has_md = /\.md$/;
+	console.log("parsing", file.name)
+	// lazy deep copy of meta defaults:
+	let meta = JSON.parse(JSON.stringify(meta_default)) 
+	meta.src = src;
 
-function build() {
-	// read the template:
-	var template = fs.readFileSync("content/template.html", "utf8");
-	template = Handlebars.compile(template);
-
-	var files = fs.readdirSync(contentpath);
-	for(var i=0;i<files.length;i++) {
-		var filename = path.join(contentpath,files[i]);
-		var stat = fs.lstatSync(filename);
-		if (!stat.isDirectory()){
-		
-			var ext = path.extname(filename);
-			var base = path.basename(filename, ext);
-			
-			console.log(base, ext);
-			
-			if (ext == ".md") {
-				var src = fs.readFileSync(filename, "utf8");
-				
-				var data = {
-					title: base,
-					content: convert(src), //markdown.toHTML(src),
-				};
-				
-				var html = template(data);
-				
-				var outpath = path.join(buildpath,base + ".html");
-				
-				console.log("writing", outpath);
-				
-				fs.writeFileSync(outpath, html);
-			}
-		
+	// update metadata from JSON header:
+	let match = (/<!--\s*(\{[\S\s]+?\})\s*-->/gm).exec(src)
+	if (match) {
+		try {
+			let header = JSON5.parse(match[1])
+			Object.assign(meta, header);
+			src = src.replace(/<!--\s*(\{[\S\s]+?\})\s*-->/gm, "")
+		} catch (e) {
+			//console.warn("unable to find/parse JSON header for", file.name)
 		}
-	};
+	}
+	//  parse title from md:
+	try {
+		if (!meta.title) meta.title = (/\n#\s+(.+)/gm).exec(src)[1];
+	} catch (e) {
+		//console.warn("unable to find/parse title")
+	}
+
+	meta.src = meta.src
+		// auto hr break at heading 1 titles:
+		//.replace(/\n(#\s[^\n]+)/g, "\n---\n\n$1")
+		// replace @image:path as background contain 
+		.replace(/\n---image:([^\s]+)/g, `\n<img src="$1" />\n`)
+		.replace(/\n---youtube:([^\s]+)/g, `<iframe width="720" height="540" src="https://youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>`)
+		.replace(/\n---vimeo:([^\s]+)/g, `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/$1?loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`)
+		// auto-embed codepens:
+		.replace(/\n---codepen:https?:\/\/codepen.io\/+([^\/]+)\/pen\/([^\/\n]+)\/?/g, 
+			`<p class="codepen" data-height="520" data-default-tab="js,result" data-user="$1" data-slug-hash="$2" data-preview="true"><span><a href="https://codepen.io/$1/pen/$2">Open pen.</a></span></p><script async src="https://static.codepen.io/assets/embed/ei.js"></script>`)
+	
+	let toc = []
+	let renderer = new marked.Renderer();
+	let heading = renderer.heading.bind(renderer);
+	renderer.heading = function(text, level, ...args) {
+		const html = heading(text, level, ...args)
+		const match = /id="(.+)"/gm.exec(html)
+		if (match && match.length > 1) {
+			const id = match[1]
+			console.log(text, level, id)
+			toc.push({
+				level: level,
+				text: text,
+				id: id,
+			})
+		}
+		return html
+	}
+
+	marked.setOptions({
+		renderer: renderer,
+		highlight: function(code, lang) {
+			return hljs.highlight(hljs.getLanguage(lang) ? lang : 'plaintext', code).value;
+		}
+	});
+
+	meta.body = marked(meta.src);
+	meta.toc = toc.length > 1 ? marked(toc.map(item => `${"  ".repeat(item.level-1)}- [${item.text}](#${item.id})`).join("\n")) : "";
+	console.log(meta.toc)
+
+	let html = template(fs.readFileSync(meta.template, "utf8"), meta);
+
+	const writename = `${file.name}.html`
+	const writepath = path.join(__dirname, writename)
+	fs.writeFileSync(writepath, html)
+	return writename;
 }
 
-build();
 
-// todo: if any file in /content is modified, rebuild
+console.log("written:", 
+	fs.readdirSync(__dirname, "utf8")
+		.map(file=>path.parse(file))
+		.filter(file=>file.ext==".md")
+		.map(generate)
+		.join("\n")
+	)
+
+

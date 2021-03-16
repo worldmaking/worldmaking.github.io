@@ -13,3 +13,5 @@ Sign up for:
 
 [List manager](https://listserv.yorku.ca/cgi-bin/wa?LMGT1=&n=&m=&a.x=56&a.y=17&X=472D9952AEBD128F18&Y=grrrwaaa%40yorku.ca)
 
+
+<a class="button button-primary" href="https://calendar.google.com/calendar/embed?src=i6gs0tohrmg0rv6umrfqklo9co%40group.calendar.google.com&ctz=America/Toronto">Lab booking calendar</a>
