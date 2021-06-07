@@ -18,7 +18,7 @@ Computationally-infused technology now saturates our living environment and incr
 
 [ResearchGate](https://www.researchgate.net/profile/Graham-Wakefield)
 
-- Graham Wakefield. “A streamlined workflow from Max/gen~ to modular hardware”. In Proceedings of the International Conference on New Interfaces for Musical Expression, (online) NYU Shanghai, China, 2021. 
+- Graham Wakefield. [A streamlined workflow from Max/gen~ to modular hardware](http://nime2021.org/program/#/paper/172). In Proceedings of the International Conference on New Interfaces for Musical Expression, (online) NYU Shanghai, China, 2021. 
 - Graham Wakefield, Michael Palumbo, Alexander Zonta. “Affordances and Constraints of Modular Synthesis in Virtual Reality”. In Proceedings of the International Conference on New Interfaces for Musical Expression, Birmingham, UK. 2020.
 - Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
 - Wakefield, Graham, and Haru Hyunkyung Ji. "Infranet: A Geospatial Data-Driven Neuro-Evolutionary Artwork." In 2019 IEEE VIS Arts Program (VISAP), pp. 1-7. IEEE, 2019.
