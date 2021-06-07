@@ -11,13 +11,14 @@ The Alice Lab is directed by Graham Wakefield, Canada Research Chair & Associate
 
 ## Research Program
 
-Computationally-infused technology now saturates our living environment and increasingly shapes our decisions and lives, and this technology is becoming more visually, sonically, and spatially aware. It is common to think of computation as a tool for solving a problem, or a machine for achieving a given task, or perhaps merely a platform to render and disseminate pre-given content. But such utilitarian perspectives miss a fascinating and fundamental capacity of computation–that it can continually and interactively rewrite itself into being something else–which is a characteristically creative capacity it shares with nature. (Moreover, adhering to pre-given goals and design for exploitation risks infusing unwelcome biases of hidden stakeholders–as evident in current debates around Artificial Intelligence.) In contrast, the central research program for the proposed renewal of the CRC asks: Can we use this mutability of computation to create environments that are more abundantly open, explorable, playful, and collaborative in meaningfully rewarding ways? Can we use immersive technologies, including Virtual Reality, Augmented Reality, and Mixed Reality, sometimes referred to collectively as “XR”, to build toward such futures and to place artists and the wider public at the heart of how they are shaped? The Canada Research Chair program in **Computational Worldmaking** at the Alice Lab tackles these questions from each end of the human-machine spectrum via two concurrent research streams of **Improvising Worlds** and **Curious Worlds.** The former places artists in the full context of immersive works as they rewrite them in-place; the latter develops artificial agents that can rewrite themselves to be more curious, playful, and creative with us. 
+Computationally-infused technology now saturates our living environment and increasingly shapes our decisions and lives, and this technology is becoming more visually, sonically, and spatially aware. It is common to think of computation as a tool for solving a problem, or a machine for achieving a given task, or perhaps merely a platform to render and disseminate pre-given content. But such utilitarian perspectives miss a fascinating and fundamental capacity of computation–that it can continually and interactively rewrite itself into being something else–which is a characteristically creative capacity it shares with nature. (Moreover, adhering to pre-given goals and design for exploitation risks infusing unwelcome biases of hidden stakeholders–as evident in current debates around Artificial Intelligence.) In contrast, the central research program for the proposed renewal of the CRC asks: Can we use this mutability of computation to create environments that are more abundantly open, explorable, playful, and collaborative in meaningfully rewarding ways? Can we use immersive technologies, including Virtual Reality, Augmented Reality, and Mixed Reality, sometimes referred to collectively as “XR”, to build toward such futures and to place artists and the wider public at the heart of how they are shaped? The Canada Research Chair program in **Computational Worldmaking** at the Alice Lab (2014-2025) tackles these questions from each end of the human-machine spectrum via two concurrent research streams of **Improvising Worlds** and **Curious Worlds.** The former places artists in the full context of immersive works as they rewrite them in-place; the latter develops artificial agents that can rewrite themselves to be more curious, playful, and creative with us. 
 
 
 ## Publications
 
 [ResearchGate](https://www.researchgate.net/profile/Graham-Wakefield)
 
+- Graham Wakefield. “A streamlined workflow from Max/gen~ to modular hardware”. In Proceedings of the International Conference on New Interfaces for Musical Expression, (online) NYU Shanghai, China, 2021. 
 - Graham Wakefield, Michael Palumbo, Alexander Zonta. “Affordances and Constraints of Modular Synthesis in Virtual Reality”. In Proceedings of the International Conference on New Interfaces for Musical Expression, Birmingham, UK. 2020.
 - Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
 - Wakefield, Graham, and Haru Hyunkyung Ji. "Infranet: A Geospatial Data-Driven Neuro-Evolutionary Artwork." In 2019 IEEE VIS Arts Program (VISAP), pp. 1-7. IEEE, 2019.
@@ -46,8 +47,8 @@ Computationally-infused technology now saturates our living environment and incr
 
 ## Exhibitions
 
-- Infanet:Vancouver. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. IEEE VIS Arts Exhibition, Vancouver Convention Centre, Vancouver, Canada. 2019-10-22 – 2019-10-25.
 - Infranet:NYC. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Techno-imagination: Living Data. Sylvia Wald & Po Kim Art Gallery, Manhattan, New York, USA. 2019-8-1 – 2019-12-06.
+- Infanet:Vancouver. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. IEEE VIS Arts Exhibition, Vancouver Convention Centre, Vancouver, Canada. 2019-10-22 – 2019-10-25.
 - Time of Doubles. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference + Open Doors Toronto. Toronto Media Arts Centre. 2019-05-17 - 2019-05-26.
 - Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference. Toronto Media Arts Centre. 2019-05-17 - 2019-05-18.
 - Endless Current. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. CRAM Research Festival, York University, Toronto. 2019-04-05.
@@ -72,7 +73,11 @@ Computationally-infused technology now saturates our living environment and incr
 
 *(Excluding conference presentations with publications)*
 
-- Speaker & panelist. [Measuring Computational Creativity. A Workshop for ISEA 2020](https://mcreativeai.github.io/#speakers), Montreal, Canada. 2020-08-18.
+- Graham Wakefield. “Computational Worldmaking in Artificial Nature and the Alice Lab”. Invited Speaker, VRTO (Virtual & Augmented Reality World Conference) Flotilla, Mozilla Hubs online ([https://vrto.spatialized.events](https://vrto.spatialized.events)), 2021-06-04.
+- Haru Ji & Graham Wakefield, invited presentation, “Artificial Nature: Immersive Installations of Shared Realities”. School of Arts, Technology & Emerging COmmunication (ATEC) Dean’s Colloquium, ([https://atec.utdallas.edu/event/deans-colloquiumharu-ji-graham-wakefield/](https://atec.utdallas.edu/event/deans-colloquiumharu-ji-graham-wakefield/)), University of Dallas Texas, 2021-05-07. 
+- Haru Ji & Graham Wakefield, “Artificial Natures in Shared Realities”. Presenters & panelists, DigitalFUTURES New Media Architecture(s): A Vision for Change in the Arts, Design, & Sciences Panel ([https://youtu.be/JFMgGrnTRgY](https://youtu.be/JFMgGrnTRgY)). Online (Youtube/Bilibili.com), 2021-05-01. 
+- Haru Ji & Graham Wakefield, “Artificial Natures // Games of Life”. Guest lecture and workshop, Data+AI+Design lecture series ([http://www.data-ai.design/artificial-nature.html](http://www.data-ai.design/artificial-nature.html)), San Jose State University, 2021-03-12. 
+- Haru Ji & Graham Wakefield, Speaker & panelist. [Measuring Computational Creativity. A Workshop for ISEA 2020](https://mcreativeai.github.io/#speakers), Montreal, Canada. 2020-08-18.
 - Artist Capsule Video. Infranet for Life, A Sensorium Virtual Exhibition. ISEA 2020, Montreal, Canada. Online 2020-08-13 to 2020-08-18.
 - Haru Ji & Graham Wakefield. [Artificial Natures (Artist Talk). Sensilab Seminar Series, Monash University](https://sensilab.monash.edu/forums/haru-ji-graham-wakefield/), Melbourne, Australia (via Zoom). 2020-07-7. 
 - Graham Wakefield. Artist Talk, Sensorium Series, York University. 2020-02-15. 
@@ -151,6 +156,13 @@ Getting there from the York University TTC Subway station:
 
 ## Courses taught by the director
 
+**Current**
 - DATT4950 / DIGM5950: Artificial Life, Generative Art, Creative Code
 - DATT4520 / DIGM5520: Generative Art in Mixed Reality
 - DIGM5010: Foundations of Digital Media
+
+**Previous**
+- VISA 5600 Contemporary Theory and Visual Art
+- FILM 6246 Future Cinema II: Applied Theory (Virtual Reality)
+- DATT 3701 Digital Media: Collaborative Game
+- DATT 3935 New Media Forms: The Database
