@@ -9,10 +9,14 @@ The Alice Lab is directed by Graham Wakefield, Canada Research Chair & Associate
 [Canada Research Chair profile](https://www.chairs-chaires.gc.ca/chairholders-titulaires/profile-eng.aspx?profileId=3488)    
 [Artist profile in Artificial Nature](https://artificialnature.net/#tab-artists)
 
+
+![Alice Lab panoramic photo](images/pano2.jpg)
+
 ## Research Program
 
 Computationally-infused technology now saturates our living environment and increasingly shapes our decisions and lives, and this technology is becoming more visually, sonically, and spatially aware. It is common to think of computation as a tool for solving a problem, or a machine for achieving a given task, or perhaps merely a platform to render and disseminate pre-given content. But such utilitarian perspectives miss a fascinating and fundamental capacity of computation–that it can continually and interactively rewrite itself into being something else–which is a characteristically creative capacity it shares with nature. (Moreover, adhering to pre-given goals and design for exploitation risks infusing unwelcome biases of hidden stakeholders–as evident in current debates around Artificial Intelligence.) In contrast, the central research program for the proposed renewal of the CRC asks: Can we use this mutability of computation to create environments that are more abundantly open, explorable, playful, and collaborative in meaningfully rewarding ways? Can we use immersive technologies, including Virtual Reality, Augmented Reality, and Mixed Reality, sometimes referred to collectively as “XR”, to build toward such futures and to place artists and the wider public at the heart of how they are shaped? The Canada Research Chair program in **Computational Worldmaking** at the Alice Lab (2014-2025) tackles these questions from each end of the human-machine spectrum via two concurrent research streams of **Improvising Worlds** and **Curious Worlds.** The former places artists in the full context of immersive works as they rewrite them in-place; the latter develops artificial agents that can rewrite themselves to be more curious, playful, and creative with us. 
 
+![Alice Lab panoramic photo](images/pano1.jpg)
 
 ## Publications
 
