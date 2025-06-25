@@ -18,6 +18,16 @@ Computationally-infused technology now saturates our living environment and incr
 
 [ResearchGate](https://www.researchgate.net/profile/Graham-Wakefield)
 
+Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking with gen~ Book 1” Cycling ‘74, November 2022.](https://cycling74.com/books/go). *[5/5 stars on GoodReads](https://www.goodreads.com/book/show/63213658-generating-sound-organizing-time), [4.8/5.0 on Amazon](https://www.amazon.ca/Generating-Sound-Organizing-Time-Thinking/dp/1732590311), [Interview on PerfectCircuit](https://www.perfectcircuit.com/signal/graham-wakefield-generating-sound-organizing-time-interview)*
+
+
+- Haru Hyunkyung Ji and Graham Wakefield. “We Are Entanglement.” In Proceedings of SIGGRAPH Art Gallery. ACM Digital Library, Vancouver, Canada, 2025 (to appear).
+- Haru Hyunkyung Ji and Graham Wakefield. “Entanglement: an immersive art of an engagement with non-conscious intelligence.” In Proceedings of the International Symposium of Electronic Art (Seoul, Korea). 2025.
+- Iason Paterakis, Nefeli Manoudaki, Graham Wakefield, Haru Ji, Ryan Millett, Diarmid Flatley, Weihao Qiu and Marcos Novak. “Composing Complexity: A Case Study of Integrating Multi-Layered Audio-Visual Systems in Large-Scale Interactive Installations.” In Proceedings of the International Symposium of Electronic Art (Seoul, Korea). 2025.
+- Haru (Hyunkyung) Ji, Graham Wakefield. “지하루 & 그라함 웨이크필드” Re:Spect, Korean Media Art Since 2000. December 2024. Edited by Kim Soo-jin, Lee Tae-won.  ISBN 979-11-94299-16-5 (93600)
+- Michael Palumbo, Graham Wakefield. “From ‘What if?’ to ‘What Diff?’ and Back Again. The Modular Synthesis: Patching Machines and People. Ed. Ezra Taboul, Andreas Kitzmann, Einar Engstrom. Taylor & Francis/Focal Press, April 2024. 
+- Haru (Hyunkyung) Ji, Graham Wakefield. "Conservation of Shadows." In Proceedings of SIGGRAPH Art Gallery. ACM Digital Library, Los Angeles, USA, 2023. 
+- Graham Wakefield, Haru Ji. “Creative Artificial Intelligence within the Artificial Life Installation Infranet”. In Proceedings of the international Electronic Visualisation & the Arts conference, (online) London, UK, 2021.
 - Graham Wakefield. [A streamlined workflow from Max/gen~ to modular hardware](http://nime2021.org/program/#/paper/172). In Proceedings of the International Conference on New Interfaces for Musical Expression, (online) NYU Shanghai, China, 2021. 
 - Graham Wakefield, Michael Palumbo, Alexander Zonta. “Affordances and Constraints of Modular Synthesis in Virtual Reality”. In Proceedings of the International Conference on New Interfaces for Musical Expression, Birmingham, UK. 2020.
 - Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
@@ -45,8 +55,56 @@ Computationally-infused technology now saturates our living environment and incr
 - Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Room Acoustics and System Interaction for Intentional Control of Audio Feedback." In Proceedings of the International Computer Music Conference (Denton, USA). University of North Texas, September, 2015.
 - So Jung Bahng, Patrick Hutchings, Yoo Doo Won, Graham Wakefield. "Generative Spatial Montage with Multi-Layered Screens in \"Lost Fragments of Night\"." In Proceedings of the International Symposium on Electronic Arts (Dubai). The Inter-Society for the Electronic Arts, October, 2014. 
 
+### Student publications
+
+- Fox-Gieg, Nick. "Lightning Artist Toolkit: A Hand-Drawn Volumetric Animation Pipeline." Proceedings of the ACM on Computer Graphics and Interactive Techniques 7, no. 4 (2024): 1-7.
+- Michael Palumbo, Graham Wakefield. “From ‘What if?’ to ‘What Diff?’ and Back Again. The Modular Synthesis: Patching Machines and People. Ed. Ezra Taboul, Andreas Kitzmann, Einar Engstrom. Taylor & Francis/Focal Press, April 2024. 
+- Racelar Ho, Xiaolong Zheng, S. C. Vollmer. Subverting Syntax: Experimental Narratives from the Post-Lingnan School of Painting. Electronic Visualisation and the Arts (EVA London), July 2024.
+- Han, David. "The Garden of Network Delights." Hyperrhiz 27 (2024).
+- Racelar Ho, S. C. Vollmer, Xiaolong Zheng. 24/7 Worldlessness of Post-Bits Human Universe: Asynchronous Signal Transmutation. Electronic Visualisation and the Arts (EVA London), July 2023. 
+- Racelar Ho, Xiaolong Zheng. The Post-bit Human Universe: An Experiment on the Evolutionary History of Human-Posthuman Relations. Electronic Visualisation and the Arts (EVA London) 2022.
+- Hogue, Andrew, Cindy Poremba, Veronika Szkudlarek, Nick Fox-Gieg, Alvaro Quevedo, Colin Orian, and Jakob Anderson. "A Visual Programming Interface for Experimenting with Volumetric Video." In 2022 IEEE Games, Entertainment, Media Conference (GEM), pp. 1-6. IEEE, 2022.
+- Vollmer, Sarah, and Racelar Ho. "Luminiferous Funeral: Journeying in Delusional Pavilions." In International Conference on Data and Information in Online, pp. 328-347. Cham: Springer International Publishing, 2021.
+- Graham Diprose, Frances Lidell, Marco Pini, S. C. Vollmer, Racelar Ho. Research Workshop Collected Paper: Explorations in concepts and the visual arts. Proceedings of EVA London 2021 (EVA 2021): AI and the Arts: Artificial Imagination, 2021. 
+- Han, David. "After Dan Graham: A Trip Along a VR Möbius Strip." In CAA 2021 ANNUAL CONFERENCE. CAA, 2021.
+- S. C. Vollmer, Racelar Ho. Irrational and Rational Avatar: the dialogue between post-technological humans and artificial intelligence. Electronic Visualisation and the Arts (EVA London) 2021. 
+- Michael Palumbo, Alexander Zonta, Graham Wakefield. “Modular Reality: Analogues of Patching in Immersive Space”. Journal of New Music Research 49:1, pp8-23, 2020. 
+- Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583). Taylor and Francis, 10 Jan 2020.
+- Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
+- David Han. After Dan Graham: An archaeological approach to virtual reality art. In Proceedings of the International Symposium of Electronic Art (Gwangju), Korea. 2019.
+- Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
+- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Environmental Interaction in Audio Feedback Systems." Applied Sciences 6, no. 5 (May, 2016): 125.
+- Seunghun Kim, Changheun Oh, Graham Wakefield, Juhan Nam. "Sonic Participation in the Evolving Audio Feedback System." In Proceedings of the International Symposium of Electronic Art (Hong Kong). 2016.
+- Seunghun Kim, Juhan Nam, Graham Wakefield. "Toward Certain Sonic Properties of an Audio Feedback System by Evolutionary Control of Second-Order Structures." In Lecture Notes in Computer Science 9027 Evolutionary and Biologically Inspired Music, Sound, Art and Design (The 4th International Conference EvoMUSART, Copenhagen), 113-124. Springer International Publishing, 2015.
+- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Room Acoustics and System Interaction for Intentional Control of Audio Feedback." In Proceedings of the International Computer Music Conference (Denton, USA). University of North Texas, September, 2015.
+- So Jung Bahng, Patrick Hutchings, Yoo Doo Won, Graham Wakefield. "Generative Spatial Montage with Multi-Layered Screens in \"Lost Fragments of Night\"." In Proceedings of the International Symposium on Electronic Arts (Dubai). The Inter-Society for the Electronic Arts, October, 2014. 
+
 ## Exhibitions
 
+- We are Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. SIGGRAPH Art Gallery, Vancouver Convention Centre, Vancouver, Canada. 2025-08-10 - 2025-08-14. 
+- We are Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. International Symposium of Electronic Arts (ISEA), Seoul Arts Center, Seoul, Korea. 2025-05-23 to 2025-05-29. 
+- Delicate Self. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. At four venues as part of Digital Subculture: Digital Abstraction and the RoofTop Busan Festival. Busan, Korea. 2025-04-23. - 2025-06-29
+  - Busan Museum of Art Outdoor Sculpture Garden LED cube.
+  - Lower Senior Town LHOUR Senior. LED facade.
+  - Ucaro Automobile (Haeundae Building). LED facade.
+  - 3rd floor art hall of Gimhae Airport Domestic Terminal.
+- Delicate Self. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Permanent exhibit: Somansa building LED wall, Pangyo, Korea, from February 2025. 
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Digital Subculture: Digital Abstraction, Time Cubism Busan Cultural Center, Korea. 2024-04-18. - 2024-05-10
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. flashDRIVE, Inter/Access, Toronto, Canada. 2025-05-01 - 2025-05-17.  Opening/fundraising event for Toronto’s newly opened digital arts venue.
+- A Thousandfold Drift. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Jeju Biennale: “The Drift of Apagi”. Jeju Museum of Contemporary Art. Jeju Island, Korea. 2024-11-26 to 2025-02-16.
+- We are Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Entangled Dimensions: Art in the Age of Neural Media. Invited artists. The Illuminarium immersive venue, Toronto. 2024-10-08 to 2024-10-09.
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Selected Series of XR Lab, Review Exhibition. XRLab, Ulsan Museum of Art, Korea. 2024-02-08 - 2024-05-19 (Invited re-exhibit, selected among three best works in the space since its opening). 
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. [Seoul Light Winter Festival Gwanghwamun Square. National Museum of Korean Contemporary History, outdoor LED media facade (90m x 9m, 8192x940 pixels)](https://eng.seoullightgwanghwamun.com/home/facade_museum.html) 2023-12-15 - 2024-01-21.  
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. NeurIPS (Creative AI track). Thirty-seventh Conference on Neural Information Processing Systems. New Orleans, 2023-12-11 to 2023-12-15. 
+- We are Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Signals, Vancouver International Film Festival (VIFF) & DigiBC. Bentall Gallery, Vancouver, Canada. 2023-10-01 - 2023-10-07. 
+- Infranet. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Cabinet of the Ephemeral–Collecting Media Art. Art Center Nabi, Seoul, Korea. 2023-09-01 - 2023-09-27.  
+- Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Data Distorted (Digital Silence), XRLab, Ulsan Museum of Art, Korea. 2023-07-04 - 2023-08-21.
+- Conservation of Shadows: Los Angeles. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. SIGGRAPH Art Gallery, Los Angeles Convention Centre, USA. (Juried competition, <10% acceptance ratio) 2023-08-06 - 2023-08-10
+- Data Ocean (Time Tunnel). [One component layer for a large-scale two-wall projection array (40m x 4.4m per wall) as part of the 50th SIGGRAPH Synaptic Time Tunnel archive data art exhibit, built upon a data archive of all historical SIGGRAPH conferences, organised collectively by teams at Bowling Green University + University of California Santa Barbara, with over $250k funding secured from Autodesk Inc. 15,000 visitors.](https://s2023.siggraph.org/presentation/?id=histc_119&sess=sess421) SIGGRAPH, Los Angeles Convention Centre, USA. 2023-08-06 - 2023-08-10
+- Dendron Alpha. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Latent-Ville, Santa Barbara Center for Arts, Science & Technology (SBCAST) and California NanoSystems Institute, USA.  2023-06-01 + 2023-06-09. 
+- Conservation of Shadows. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Santa Barbara Center for Arts, Science & Technology (SBCAST), USA. 2022-10-06
+- Conservation of Shadows in ZKM. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. [BioMedia (The Age of Media with Life-like Behavior), Center for Art and Media Mediamuseum (ZKM), Karlsruhe, Germany](https://zkm.de/en/exhibition/2021/12/biomedia). 2021-12-18 - 2022-08-28.  
+- Infranet. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Life, A Sensorium Virtual Exhibition. ISEA 2020, Montreal, Canada. Online due to pandemic. 2020-08-13 to 2020-08-18.
 - Infranet:NYC. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Techno-imagination: Living Data. Sylvia Wald & Po Kim Art Gallery, Manhattan, New York, USA. 2019-8-1 – 2019-12-06.
 - Infanet:Vancouver. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. IEEE VIS Arts Exhibition, Vancouver Convention Centre, Vancouver, Canada. 2019-10-22 – 2019-10-25.
 - Time of Doubles. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. Spiral Film Philosophy Conference + Open Doors Toronto. Toronto Media Arts Centre. 2019-05-17 - 2019-05-26.
@@ -73,6 +131,17 @@ Computationally-infused technology now saturates our living environment and incr
 
 *(Excluding conference presentations with publications)*
 
+- Graham Wakefield. Computational Worldmaking. 2024 CAU International Metaverse Festival (CIMF), Chung-Ang University, Seoul, Korea. 2024-11-07
+- Graham Wakefield. Entanglement. Master of Digital Media talk series, The Creative School, Toronto Metropolitan University: 2023-11-09
+- Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Digital Arts SPARKS: Artist Talks: 2023-09-29 
+- Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Artist Talk. 2023-08-06
+- Graham Wakefield. Generating Sound & Organizing Time with gen~. CCRMA seminar, Stanford University, 2023-04-12.
+- Haru Ji & Graham Wakefield. Data Art and Immersive Artificial Ecologies with examples of Artificial Natures. Translational Data Analytics lectures, Ohio State University 2023-03-08
+- Graham Wakefield. Generating Sound & Organizing Time with gen~. Media Arts & Technology seminar, University of California Santa Barbara, 2022-12-05.
+- Graham Wakefield. Computational Creativity & AI. AIIF (Advanced Imaging & Artificial Intelligence International Festival). Chung-Ang University, Seoul, Korea. Online, 2022-11-05
+- Graham Wakefield. Creative AI within the Artificial Life Installation “Infranet” and other Artificial Natures. The Ohio State University ACCAD Data + Trends series. Online, 2022. 
+- Graham Wakefield. Computational Creativity. Invited talk, Hong Kong University of Science & Technology (HKUST). 2022-01-25.
+- Graham Wakefield. “Prototyping Hybrid Reality Technologies”. Meta/Oculus Reality Labs, 2021-07-27. This keynote event kicked off a workshop week at FRL prototyping audio devices using gen~ & Oopsy software and the Daisy open hardware platform. 
 - Graham Wakefield. “Computational Worldmaking in Artificial Nature and the Alice Lab”. Invited Speaker, VRTO (Virtual & Augmented Reality World Conference) Flotilla, Mozilla Hubs online ([https://vrto.spatialized.events](https://vrto.spatialized.events)), 2021-06-04.
 - Haru Ji & Graham Wakefield, invited presentation, “Artificial Nature: Immersive Installations of Shared Realities”. School of Arts, Technology & Emerging COmmunication (ATEC) Dean’s Colloquium, ([https://atec.utdallas.edu/event/deans-colloquiumharu-ji-graham-wakefield/](https://atec.utdallas.edu/event/deans-colloquiumharu-ji-graham-wakefield/)), University of Dallas Texas, 2021-05-07. 
 - Haru Ji & Graham Wakefield, “Artificial Natures in Shared Realities”. Presenters & panelists, DigitalFUTURES New Media Architecture(s): A Vision for Change in the Arts, Design, & Sciences Panel ([https://youtu.be/JFMgGrnTRgY](https://youtu.be/JFMgGrnTRgY)). Online (Youtube/Bilibili.com), 2021-05-01. 
@@ -160,6 +229,8 @@ Getting there from the York University TTC Subway station:
 - DATT4950 / DIGM5950: Artificial Life, Generative Art, Creative Code
 - DATT4520 / DIGM5520: Generative Art in Mixed Reality
 - DIGM5010: Foundations of Digital Media
+- DATT 3074 Creative Generative Audio Signal Processing
+- DATT 1020 Introduction to Interactive Digital Media II
 
 **Previous**
 - VISA 5600 Contemporary Theory and Visual Art
