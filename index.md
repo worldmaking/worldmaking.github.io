@@ -59,30 +59,6 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 - Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Room Acoustics and System Interaction for Intentional Control of Audio Feedback." In Proceedings of the International Computer Music Conference (Denton, USA). University of North Texas, September, 2015.
 - So Jung Bahng, Patrick Hutchings, Yoo Doo Won, Graham Wakefield. "Generative Spatial Montage with Multi-Layered Screens in \"Lost Fragments of Night\"." In Proceedings of the International Symposium on Electronic Arts (Dubai). The Inter-Society for the Electronic Arts, October, 2014. 
 
-### Student publications
-
-- Fox-Gieg, Nick. "Lightning Artist Toolkit: A Hand-Drawn Volumetric Animation Pipeline." Proceedings of the ACM on Computer Graphics and Interactive Techniques 7, no. 4 (2024): 1-7.
-- Michael Palumbo, Graham Wakefield. “From ‘What if?’ to ‘What Diff?’ and Back Again. The Modular Synthesis: Patching Machines and People. Ed. Ezra Taboul, Andreas Kitzmann, Einar Engstrom. Taylor & Francis/Focal Press, April 2024. 
-- Racelar Ho, Xiaolong Zheng, S. C. Vollmer. Subverting Syntax: Experimental Narratives from the Post-Lingnan School of Painting. Electronic Visualisation and the Arts (EVA London), July 2024.
-- Han, David. "The Garden of Network Delights." Hyperrhiz 27 (2024).
-- Racelar Ho, S. C. Vollmer, Xiaolong Zheng. 24/7 Worldlessness of Post-Bits Human Universe: Asynchronous Signal Transmutation. Electronic Visualisation and the Arts (EVA London), July 2023. 
-- Racelar Ho, Xiaolong Zheng. The Post-bit Human Universe: An Experiment on the Evolutionary History of Human-Posthuman Relations. Electronic Visualisation and the Arts (EVA London) 2022.
-- Hogue, Andrew, Cindy Poremba, Veronika Szkudlarek, Nick Fox-Gieg, Alvaro Quevedo, Colin Orian, and Jakob Anderson. "A Visual Programming Interface for Experimenting with Volumetric Video." In 2022 IEEE Games, Entertainment, Media Conference (GEM), pp. 1-6. IEEE, 2022.
-- Vollmer, Sarah, and Racelar Ho. "Luminiferous Funeral: Journeying in Delusional Pavilions." In International Conference on Data and Information in Online, pp. 328-347. Cham: Springer International Publishing, 2021.
-- Graham Diprose, Frances Lidell, Marco Pini, S. C. Vollmer, Racelar Ho. Research Workshop Collected Paper: Explorations in concepts and the visual arts. Proceedings of EVA London 2021 (EVA 2021): AI and the Arts: Artificial Imagination, 2021. 
-- Han, David. "After Dan Graham: A Trip Along a VR Möbius Strip." In CAA 2021 ANNUAL CONFERENCE. CAA, 2021.
-- S. C. Vollmer, Racelar Ho. Irrational and Rational Avatar: the dialogue between post-technological humans and artificial intelligence. Electronic Visualisation and the Arts (EVA London) 2021. 
-- Michael Palumbo, Alexander Zonta, Graham Wakefield. “Modular Reality: Analogues of Patching in Immersive Space”. Journal of New Music Research 49:1, pp8-23, 2020. 
-- Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583). Taylor and Francis, 10 Jan 2020.
-- Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
-- David Han. After Dan Graham: An archaeological approach to virtual reality art. In Proceedings of the International Symposium of Electronic Art (Gwangju), Korea. 2019.
-- Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
-- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Environmental Interaction in Audio Feedback Systems." Applied Sciences 6, no. 5 (May, 2016): 125.
-- Seunghun Kim, Changheun Oh, Graham Wakefield, Juhan Nam. "Sonic Participation in the Evolving Audio Feedback System." In Proceedings of the International Symposium of Electronic Art (Hong Kong). 2016.
-- Seunghun Kim, Juhan Nam, Graham Wakefield. "Toward Certain Sonic Properties of an Audio Feedback System by Evolutionary Control of Second-Order Structures." In Lecture Notes in Computer Science 9027 Evolutionary and Biologically Inspired Music, Sound, Art and Design (The 4th International Conference EvoMUSART, Copenhagen), 113-124. Springer International Publishing, 2015.
-- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Room Acoustics and System Interaction for Intentional Control of Audio Feedback." In Proceedings of the International Computer Music Conference (Denton, USA). University of North Texas, September, 2015.
-- So Jung Bahng, Patrick Hutchings, Yoo Doo Won, Graham Wakefield. "Generative Spatial Montage with Multi-Layered Screens in \"Lost Fragments of Night\"." In Proceedings of the International Symposium on Electronic Arts (Dubai). The Inter-Society for the Electronic Arts, October, 2014. 
-
 ## Exhibitions
 
 - We are Entanglement. Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield. SIGGRAPH Art Gallery, Vancouver Convention Centre, Vancouver, Canada. 2025-08-10 - 2025-08-14. 
@@ -182,23 +158,27 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 
 Graduate students conducting research/art in the lab
 
-- David Han, PhD Cinema and Media Studies
-- Sarah Vollmer, MSc/PhD Digital Media
-- Racelar Ho, PhD Digital Media
-- Michael Palumbo, PhD Digital Media
-- Marcus Gordon, PhD Digital Media
-- Ilze (Kavi) Briede, MFA Visual Arts/PhD Digital Media
-- Nick Fox-Gieg, PhD Digital Media
-- Hrysovalanti Maheras, MA/PhD Digital Media
-- Rory Hoy, MA/PhD, Digital Media
+- Nick Fox-Gieg, PhD Digital Media. Primary supervisor. SSHRC CGS Doctoral Scholarship. Graduated 2025.
+- Michael Trommer, PhD Cinema and Media Studies. Vanier Scholarship. Graduated 2024. 
+- Alison Humphrey, PhD Cinema and Media Studies. Vanier Scholarship. Graduated 2023. 
+- Slavica Ceperkovic, PhD Cinema and Media Studies. Graduated 2022.
+- Alia Miroshnichenko, PhD Communications and Culture. Graduated 2020.
+- Reşat Fuat Çam. PhD Cinema and Media Studies. Graduated 2019. 
+  
+- Michael Palumbo, PhD Digital Media. Primary supervisor. Defending 2025. 
+- Marcus Gordon, PhD Digital Media. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. Defending 2025.
+  
+- David Han, PhD Cinema and Media Studies. Primary supervisor. SSHRC CGS Doctoral Scholarship. ABD.
+- Racelar Ho, PhD Digital Media. Primary supervisor. CIBC Student Award for Culture & Entertainment, 2021. ABD.
+- Ilze (Kavi) Briede, MFA Visual Arts/PhD Digital Media. ABD.
+- Hrysovalanti Maheras, MA/PhD Digital Media. ABD.
+- Rory Hoy, MA/PhD, Digital Media. ABD. 
+- Ian Jarvis. PhD Theatre & Performance. ABD.
+
+- Sarah Vollmer, MSc/PhD Digital Media. Primary supervisor. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. 
+- Robert Appleton, PhD, Music
 - Andrew Sidsworth, MA Digital Media
 - Janica Olpindo, MA Digital Media
-- Michael Trommer, PhD Cinema and Media Studies
-- Robert Appleton, PhD, Music
-- Alison Humphrey, PhD Cinema and Media Studies
-- Reşat Fuat Çam. PhD Cinema and Media Studies
-- Alia Miroshnichenko, PhD Communications and Culture
-- Slavica Ceperkovic, PhD Cinema and Media Studies
 
 Undergraduate students conducting research/art in the lab
 
@@ -216,6 +196,31 @@ Undergraduate students conducting research/art in the lab
 - Lalaine Ulit-Destajo, Digital Media program, graduated 2016.
 - Youhan Guan, Digital Media program, graduated 2016.
 - Mengmei Zhou, Digital Media program, graduated 2016.
+
+## Student publications
+
+- Fox-Gieg, Nick. "Lightning Artist Toolkit: A Hand-Drawn Volumetric Animation Pipeline." Proceedings of the ACM on Computer Graphics and Interactive Techniques 7, no. 4 (2024): 1-7.
+- Michael Palumbo, Graham Wakefield. “From ‘What if?’ to ‘What Diff?’ and Back Again. The Modular Synthesis: Patching Machines and People. Ed. Ezra Taboul, Andreas Kitzmann, Einar Engstrom. Taylor & Francis/Focal Press, April 2024. 
+- Racelar Ho, Xiaolong Zheng, S. C. Vollmer. Subverting Syntax: Experimental Narratives from the Post-Lingnan School of Painting. Electronic Visualisation and the Arts (EVA London), July 2024.
+- Han, David. "The Garden of Network Delights." Hyperrhiz 27 (2024).
+- Racelar Ho, S. C. Vollmer, Xiaolong Zheng. 24/7 Worldlessness of Post-Bits Human Universe: Asynchronous Signal Transmutation. Electronic Visualisation and the Arts (EVA London), July 2023. 
+- Racelar Ho, Xiaolong Zheng. The Post-bit Human Universe: An Experiment on the Evolutionary History of Human-Posthuman Relations. Electronic Visualisation and the Arts (EVA London) 2022.
+- Hogue, Andrew, Cindy Poremba, Veronika Szkudlarek, Nick Fox-Gieg, Alvaro Quevedo, Colin Orian, and Jakob Anderson. "A Visual Programming Interface for Experimenting with Volumetric Video." In 2022 IEEE Games, Entertainment, Media Conference (GEM), pp. 1-6. IEEE, 2022.
+- Vollmer, Sarah, and Racelar Ho. "Luminiferous Funeral: Journeying in Delusional Pavilions." In International Conference on Data and Information in Online, pp. 328-347. Cham: Springer International Publishing, 2021.
+- Graham Diprose, Frances Lidell, Marco Pini, S. C. Vollmer, Racelar Ho. Research Workshop Collected Paper: Explorations in concepts and the visual arts. Proceedings of EVA London 2021 (EVA 2021): AI and the Arts: Artificial Imagination, 2021. 
+- Han, David. "After Dan Graham: A Trip Along a VR Möbius Strip." In CAA 2021 ANNUAL CONFERENCE. CAA, 2021.
+- S. C. Vollmer, Racelar Ho. Irrational and Rational Avatar: the dialogue between post-technological humans and artificial intelligence. Electronic Visualisation and the Arts (EVA London) 2021. 
+- Michael Palumbo, Alexander Zonta, Graham Wakefield. “Modular Reality: Analogues of Patching in Immersive Space”. Journal of New Music Research 49:1, pp8-23, 2020. 
+- Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583). Taylor and Francis, 10 Jan 2020.
+- Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
+- David Han. After Dan Graham: An archaeological approach to virtual reality art. In Proceedings of the International Symposium of Electronic Art (Gwangju), Korea. 2019.
+- Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
+- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Environmental Interaction in Audio Feedback Systems." Applied Sciences 6, no. 5 (May, 2016): 125.
+- Seunghun Kim, Changheun Oh, Graham Wakefield, Juhan Nam. "Sonic Participation in the Evolving Audio Feedback System." In Proceedings of the International Symposium of Electronic Art (Hong Kong). 2016.
+- Seunghun Kim, Juhan Nam, Graham Wakefield. "Toward Certain Sonic Properties of an Audio Feedback System by Evolutionary Control of Second-Order Structures." In Lecture Notes in Computer Science 9027 Evolutionary and Biologically Inspired Music, Sound, Art and Design (The 4th International Conference EvoMUSART, Copenhagen), 113-124. Springer International Publishing, 2015.
+- Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Room Acoustics and System Interaction for Intentional Control of Audio Feedback." In Proceedings of the International Computer Music Conference (Denton, USA). University of North Texas, September, 2015.
+- So Jung Bahng, Patrick Hutchings, Yoo Doo Won, Graham Wakefield. "Generative Spatial Montage with Multi-Layered Screens in \"Lost Fragments of Night\"." In Proceedings of the International Symposium on Electronic Arts (Dubai). The Inter-Society for the Electronic Arts, October, 2014. 
+
 
 ## Location
 
