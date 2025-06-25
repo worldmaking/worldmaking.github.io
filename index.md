@@ -109,14 +109,16 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 
 ## Talks, panels, guest lectures, and workshops
 
-*(Excluding conference presentations with publications)*
-
 - Graham Wakefield. Computational Worldmaking. 2024 CAU International Metaverse Festival (CIMF), Chung-Ang University, Seoul, Korea. 2024-11-07
+- Graham Wakefield & Karl Yerkes. Synth UX Hackathon. University of California Santa Barbara / SBCAST, a four day event along with 19 other universities world-wide, Feb 9 - Feb 12 2024, sponsored by Arturia, Erica Synths, Electrosmith, Cycling ‘74, Superbooth.
+
 - Graham Wakefield. Entanglement. Master of Digital Media talk series, The Creative School, Toronto Metropolitan University: 2023-11-09
 - Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Digital Arts SPARKS: Artist Talks: 2023-09-29 
 - Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Artist Talk. 2023-08-06
+- Graham Wakefield & Gregory Taylor. [Generating Sound & Organizing Time. Music Hackspace (https://musichackspace.org), London, UK, 2023-05-27.](https://musichackspace.org/product/max-meetup-generating-sound-organizing-time/)  
 - Graham Wakefield. Generating Sound & Organizing Time with gen~. CCRMA seminar, Stanford University, 2023-04-12.
 - Haru Ji & Graham Wakefield. Data Art and Immersive Artificial Ecologies with examples of Artificial Natures. Translational Data Analytics lectures, Ohio State University 2023-03-08
+- Graham Wakefield & Karl Yerkes. Synth UX Hackathon. University of California Santa Barbara / SBCAST, a four day event along with 16 other universities world-wide, Feb 17 - Feb 20 2023, sponsored by Arturia, Electrosmith, Cycling ‘74, Superbooth.
 - Graham Wakefield. Generating Sound & Organizing Time with gen~. Media Arts & Technology seminar, University of California Santa Barbara, 2022-12-05.
 - Graham Wakefield. Computational Creativity & AI. AIIF (Advanced Imaging & Artificial Intelligence International Festival). Chung-Ang University, Seoul, Korea. Online, 2022-11-05
 - Graham Wakefield. Creative AI within the Artificial Life Installation “Infranet” and other Artificial Natures. The Ohio State University ACCAD Data + Trends series. Online, 2022. 
@@ -135,6 +137,7 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 - Artificial Nature (Artist Talk). [Spiral Film Philosophy conference 2019, "It's Alive! Film/Form/Life"](https://www.facebook.com/spiralfilmphilosophy/). Toronto Media Arts Centre, Canada. 2019-05-17. 
 - Live Coding Max with Gibberwocky (Workshop). Expo '74 2019, MASS MOCA, North Adams, USA. 2019-04-28.
 - Modular Synthesis in Virtual Reality (Demonstration). Expo '74 2019, MASS MOCA, North Adams, USA. 2019-04-26.
+- Graham Wakefield. VR for Researchers. VISTA: Vision Science to Applications, York University, 2018-5-31 - 2018-6-1.
 - Artificial Nature (Artist Talk). 307: Feral Hospitality, Sidewalk Labs, Toronto, Canada. 2019-04-02. 
 - Live Code a Language as Instrument (Workshop). The International Conference on New Interfaces for Musical Expression, Aalborg University Copenhagen, Denmark, 2017-06-15
 - Design a Mini Live Coding Language (Workshop). International Conference on Live Coding, Centre 3 for Print and Media Arts, Hamilton, Canada, 2016-10-12
