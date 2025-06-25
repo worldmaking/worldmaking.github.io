@@ -111,7 +111,6 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 
 - Graham Wakefield. Computational Worldmaking. 2024 CAU International Metaverse Festival (CIMF), Chung-Ang University, Seoul, Korea. 2024-11-07
 - Graham Wakefield & Karl Yerkes. Synth UX Hackathon. University of California Santa Barbara / SBCAST, a four day event along with 19 other universities world-wide, Feb 9 - Feb 12 2024, sponsored by Arturia, Erica Synths, Electrosmith, Cycling ‘74, Superbooth.
-
 - Graham Wakefield. Entanglement. Master of Digital Media talk series, The Creative School, Toronto Metropolitan University: 2023-11-09
 - Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Digital Arts SPARKS: Artist Talks: 2023-09-29 
 - Haru Ji & Graham Wakefield. Conservation of Shadows. SIGGRAPH Artist Talk. 2023-08-06
