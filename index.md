@@ -2,10 +2,10 @@
 
 # The Alice Lab
 
-The Alice Lab's program of interdisciplinary research-creation applies a deep commitment to the open- endedness of computation—as an art material—toward technologies of artificial intelligence within immersive mixed reality. The research and training program will result in new software for artists to co-create immersive worlds—as art installations—from within the worlds themselves. As collaborative improvisations enacted with the whole body, this will radically change how we sculpt complex forms and behaviours. Moreover, these worlds will be more responsive, playful, and curious. Disseminated in public venues, they will share a different conception of the cohabitation of human and artificial beings.
+The Alice Lab's program of interdisciplinary research-creation applies a deep commitment to the open- endedness of computation—as an art material—toward technologies of artificial intelligence within immersive mixed reality. The research and training program generates new software for artists to co-create immersive worlds—as art installations—from within the worlds themselves. As collaborative improvisations enacted with the whole body, they are intended to radically change how we sculpt complex forms and behaviours. Moreover, these worlds are more responsive, playful, and curious. Disseminated in public venues, they share a different conception of the cohabitation of human and artificial beings.
 
 The Alice Lab is directed by Graham Wakefield, Canada Research Chair & Associate Professor, School of the Arts, Media, Performance & Design, York University   
-[Academic profile at York University](https://ampd.yorku.ca/profile/graham-wakefield/)  
+[Academic profile at York University](https://discover.academics.yorku.ca/Graham.Wakefield)  
 [Canada Research Chair profile](https://www.chairs-chaires.gc.ca/chairholders-titulaires/profile-eng.aspx?profileId=3488)    
 [Artist profile in Artificial Nature](https://artificialnature.net/#tab-artists)
 
