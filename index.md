@@ -156,25 +156,27 @@ Graham Wakefield, Gregory Taylor. [Generating Sound & Organizing Time: Thinking 
 
 ## Students 
 
-Graduate students conducting research/art in the lab
+Graduate students conducting research/art with the lab
 
 - Nick Fox-Gieg, PhD Digital Media. Primary supervisor. SSHRC CGS Doctoral Scholarship. Graduated 2025.
 - Michael Trommer, PhD Cinema and Media Studies. Vanier Scholarship. Graduated 2024. 
+- Zian Liu, MA Digital Media. Graduated 2024. 
 - Alison Humphrey, PhD Cinema and Media Studies. Vanier Scholarship. Graduated 2023. 
 - Slavica Ceperkovic, PhD Cinema and Media Studies. Graduated 2022.
 - Alia Miroshnichenko, PhD Communications and Culture. Graduated 2020.
+- Shea Chang, MFA Visual Arts. Graduated 2020. 
+- Andrew Sidsworth, MA Digital Media, Graduated 2020. 
 - Reşat Fuat Çam. PhD Cinema and Media Studies. Graduated 2019. 
 - Michael Palumbo, PhD Digital Media. Primary supervisor. Defending 2025. 
 - Marcus Gordon, PhD Digital Media. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. Defending 2025.
 - David Han, PhD Cinema and Media Studies. Primary supervisor. SSHRC CGS Doctoral Scholarship. ABD.
 - Racelar Ho, PhD Digital Media. Primary supervisor. CIBC Student Award for Culture & Entertainment, 2021. ABD.
-- Ilze (Kavi) Briede, MFA Visual Arts/PhD Digital Media. ABD.
-- Hrysovalanti Maheras, MA/PhD Digital Media. ABD.
-- Rory Hoy, MA/PhD, Digital Media. ABD. 
+- Ilze (Kavi) Briede, MFA Visual Arts (Graduated 2019), PhD Digital Media. ABD.
+- Hrysovalanti Maheras, MA Digital Media (Graduated 2019), PhD Digital Media. ABD.
+- Rory Hoy, MA Digital Media (Graduated 2019), PhD Digital Media. ABD. 
 - Ian Jarvis. PhD Theatre & Performance. ABD.
-- Sarah Vollmer, MSc/PhD Digital Media. Primary supervisor. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. 
+- Sarah Vollmer, MSc Digital Media (Graduated 2019). PhD Digital Media. Primary supervisor. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. 
 - Robert Appleton, PhD, Music
-- Andrew Sidsworth, MA Digital Media
 - Janica Olpindo, MA Digital Media
 
 Undergraduate students conducting research/art in the lab
