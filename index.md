@@ -22,7 +22,19 @@ Computationally-infused technology now saturates our living environment and incr
 
 In contrast, the lab's research program asks: Can we use this mutability of computation to create environments that are more abundantly open, explorable, playful, and collaborative in meaningfully rewarding ways? Can we use immersive "XR" technologies, including Virtual Reality, Augmented Reality, and Mixed Reality, to build toward such futures and to place artists and the wider public at the heart of how they are shaped? The Alice Lab tackles these questions from each end of the human-machine spectrum via  concurrent research streams of **Improvising Worlds** and **Curious Worlds.** The former places artists in the full context of immersive works as they rewrite them in-place; the latter develops artificial beings that can rewrite themselves to be more curious, playful, and creative with us. 
 
+## Infrastructure
+
+- Surround 3-sided 6x6m area projection screen with curved corners
+- 3x low-latency projectors (currently under repair)
+- 20.2 surround Genelec audio system and MOTU AVB interfaces
+- A powerful local-AI compute server with 3x Ada GPGPUs
+- Several high-end workstations with GTX 1080 or 4090 GPUs
+- A variety of VR/XR headsets including Vive Pro/Pro 2, Varjo XR-4, Meta Quest 3, Valve Index, Vive trackers and several older models
+- Phasespace 16-camera motion capture system
+- Array of 8x Kinect Azure cameras (as well as a variety of older depth camera models)
+
 ![Alice Lab panoramic photo](images/pano1.jpg)
+
 
 ## Publications
 
