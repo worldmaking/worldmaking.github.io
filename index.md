@@ -195,7 +195,7 @@ Graduate students conducting research/art with the lab
 - Hrysovalanti Maheras, MA Digital Media (Graduated 2019), PhD Digital Media. ABD.
 - Rory Hoy, MA Digital Media (Graduated 2019), PhD Digital Media. ABD. 
 - Ian Jarvis. PhD Theatre & Performance. ABD.
-- Sarah Vollmer, MSc Digital Media (Graduated 2019). PhD Digital Media. Primary supervisor. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. 
+- Sarah Vollmer, (MSc. conversion) PhD Digital Media. Primary supervisor. ABD. SSHRC CGS Doctoral Scholarship. VISTA Scholarship, Susan Crocker and John Hunkin Award in Fine Arts. 
 - Robert Appleton, PhD, Music
 - Janica Olpindo, MA Digital Media
 
@@ -220,18 +220,18 @@ Undergraduate students conducting research/art in the lab
 
 - Fox-Gieg, Nick. "Lightning Artist Toolkit: A Hand-Drawn Volumetric Animation Pipeline." Proceedings of the ACM on Computer Graphics and Interactive Techniques 7, no. 4 (2024): 1-7.
 - Michael Palumbo, Graham Wakefield. “From ‘What if?’ to ‘What Diff?’ and Back Again. The Modular Synthesis: Patching Machines and People. Ed. Ezra Taboul, Andreas Kitzmann, Einar Engstrom. Taylor & Francis/Focal Press, April 2024. 
-- Racelar Ho, Xiaolong Zheng, S. C. Vollmer. Subverting Syntax: Experimental Narratives from the Post-Lingnan School of Painting. Electronic Visualisation and the Arts (EVA London), July 2024.
+- Racelar Ho, S.C. Vollmer, Xiaolong Zheng. Subverting Syntax: Experimental Narratives from the Post-Lingnan School of Painting. Electronic Visualisation and the Arts (EVA London), July 2024.
 - Han, David. "The Garden of Network Delights." Hyperrhiz 27 (2024).
-- Racelar Ho, S. C. Vollmer, Xiaolong Zheng. 24/7 Worldlessness of Post-Bits Human Universe: Asynchronous Signal Transmutation. Electronic Visualisation and the Arts (EVA London), July 2023. 
+- Racelar Ho, S.C. Vollmer, Xiaolong Zheng. 24/7 Worldlessness of Post-Bits Human Universe: Asynchronous Signal Transmutation. Electronic Visualisation and the Arts (EVA London), July 2023. 
 - Racelar Ho, Xiaolong Zheng. The Post-bit Human Universe: An Experiment on the Evolutionary History of Human-Posthuman Relations. Electronic Visualisation and the Arts (EVA London) 2022.
 - Hogue, Andrew, Cindy Poremba, Veronika Szkudlarek, Nick Fox-Gieg, Alvaro Quevedo, Colin Orian, and Jakob Anderson. "A Visual Programming Interface for Experimenting with Volumetric Video." In 2022 IEEE Games, Entertainment, Media Conference (GEM), pp. 1-6. IEEE, 2022.
-- Vollmer, Sarah, and Racelar Ho. "Luminiferous Funeral: Journeying in Delusional Pavilions." In International Conference on Data and Information in Online, pp. 328-347. Cham: Springer International Publishing, 2021.
+- Vollmer, S.C., and Racelar Ho. "Luminiferous Funeral: Journeying in Delusional Pavilions." In International Conference on Data and Information in Online, pp. 328-347. Cham: Springer International Publishing, 2021.
 - Graham Diprose, Frances Lidell, Marco Pini, S. C. Vollmer, Racelar Ho. Research Workshop Collected Paper: Explorations in concepts and the visual arts. Proceedings of EVA London 2021 (EVA 2021): AI and the Arts: Artificial Imagination, 2021. 
 - Han, David. "After Dan Graham: A Trip Along a VR Möbius Strip." In CAA 2021 ANNUAL CONFERENCE. CAA, 2021.
-- S. C. Vollmer, Racelar Ho. Irrational and Rational Avatar: the dialogue between post-technological humans and artificial intelligence. Electronic Visualisation and the Arts (EVA London) 2021. 
+- S.C. Vollmer, Racelar Ho. Irrational and Rational Avatar: the dialogue between post-technological humans and artificial intelligence. Electronic Visualisation and the Arts (EVA London) 2021. 
 - Michael Palumbo, Alexander Zonta, Graham Wakefield. “Modular Reality: Analogues of Patching in Immersive Space”. Journal of New Music Research 49:1, pp8-23, 2020. 
 - Michael Palumbo, Alexander Zonta, Graham Wakefield. "Modular reality: Analogues of patching in immersive space". Journal of New Music Research, [DOI: 10.1080/09298215.2019.1706583](https://doi.org/10.1080/09298215.2019.1706583). Taylor and Francis, 10 Jan 2020.
-- Sarah Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
+- S.C. Vollmer. 2019. Curious Creatures: a living virtual research-creation lab. In 6th International Conference on Movement and Computing (MOCO ’19), October 10–12, 2019, Tempe, AZ, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3347122.3371379
 - David Han. After Dan Graham: An archaeological approach to virtual reality art. In Proceedings of the International Symposium of Electronic Art (Gwangju), Korea. 2019.
 - Sung-A Jang, Graham Wakefield, Sung-Hee Lee. "Incorporating Kinesthetic Creativity and Gestural Play into Immersive Modeling." In Proceedings of the 4th International Conference on Motion Computing (London, United Kingdom), 17-24. ACM, June, 2017.
 - Seunghun Kim, Graham Wakefield, Juhan Nam. "Augmenting Environmental Interaction in Audio Feedback Systems." Applied Sciences 6, no. 5 (May, 2016): 125.
